@@ -2,8 +2,16 @@
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
+from bs4 import BeautifulSoup
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+#import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia, google,tempfile,glob,shutil,unicodedata,urllib3
+import html5lib
+from urllib import urlopen
+import requests,tempfile
+#from urllib3.contrib import pyopenssl
+#from random import randint
+from gtts import gTTS
 
 cl = LINETCR.LINE()
 cl.login(token="EnsvNtXny4ZizvSTuwVb.w6+8YbOkbOMyiHAGbC+hcW.XdiVOZlU7NBJK8ASyP7r7H4NRCXpaji3fqAITzN2hRc=)
