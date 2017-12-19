@@ -14,7 +14,7 @@ import requests,tempfile
 from gtts import gTTS
 
 cl = LINETCR.LINE()
-cl.login(token="EnsvNtXny4ZizvSTuwVb.w6+8YbOkbOMyiHAGbC+hcW.XdiVOZlU7NBJK8ASyP7r7H4NRCXpaji3fqAITzN2hRc=)
+cl.login(token="EnsvNtXny4ZizvSTuwVb.w6+8YbOkbOMyiHAGbC+hcW.XdiVOZlU7NBJK8ASyP7r7H4NRCXpaji3fqAITzN2hRc=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
