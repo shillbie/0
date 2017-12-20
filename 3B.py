@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token=".w6+8YbOkbOMyiHAGbC+hcW.AAtArKLqrocrUu3ZEt+hQb2U2jWDcdba4hwEEmGI0Us=")
+cl.login(token="EogNPqCKwdrqEAi9NBib.w6+8YbOkbOMyiHAGbC+hcW.AAtArKLqrocrUu3ZEt+hQb2U2jWDcdba4hwEEmGI0Us=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token=".m5X5B34I0MLNJSqaZLZ5uW.ncD5Ivv9vavi+zsYZ4KuHdQCRI6bGpLUy3o74jvAqGg=")
+ki.login(token="EoGgEDm4fbXITsuDj1h3.m5X5B34I0MLNJSqaZLZ5uW.ncD5Ivv9vavi+zsYZ4KuHdQCRI6bGpLUy3o74jvAqGg=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token=".wOe3+tIdNxRJik2Eaf7nOq.uJ92ObzaBk8AGBqNEO7X/aPyR1sNXpWz1bsol4HPpxs=")
+ki2.login(token="EoA0Mxh1UUYSV8NbB2w1.wOe3+tIdNxRJik2Eaf7nOq.uJ92ObzaBk8AGBqNEO7X/aPyR1sNXpWz1bsol4HPpxs=")
 ki2.loginResult()
 
 print "login success plak"
@@ -48,7 +48,7 @@ helpMessage ="""╔═════════════
 ║╠[20]Bc
 ║╠[21]Spam
 ║╠[22]Bot1/2 rename
-║╠[23]Allbio:
+║╠[23]
 ║╠[24]Copy←→Backup
 ║╠[25]List group
 ║╠[26]/invitemeto:
@@ -1596,7 +1596,7 @@ def bot(op):
     #-------------Fungsi Leave Group Finish---------------#
     
     #-------------Fungsi Tag All Start---------------#
-            elif msg.text in ["Tag all","Tagall"]:
+            elif msg.text in ["CIPOK","Tagall"]:
             	 if msg.from_ in admin:
                   group = cl.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
@@ -1766,6 +1766,28 @@ def bot(op):
                                     cl.sendText(msg.to,"Succes Plak")
                                 except:
                                     cl.sendText(msg.to,"error")
+				
+				//Runtime bot by erpan
+
+import time
+
+mulai = time.time()
+
+
+//defnya
+
+def waktu(secs):
+    mins, secs = divmod(secs,60)
+    hours, mins = divmod(mins,60)
+    return '%02d Jam %02d Menit %02d Detik' % (hours, mins, secs)
+
+
+//commandnya
+
+            elif msg.text.lower() == 'Runtime':
+                eltime = time.time() - mulai
+                van = "Bot sudah berjalan selama "+waktu(eltime)
+                cl.sendText(msg.to,van)
             
             #----------------Fungsi Banned User Target Start-----------------------#
             elif "Banned @" in msg.text:
