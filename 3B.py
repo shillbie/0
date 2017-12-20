@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="")
+cl.login(token="EogNPqCKwdrqEAi9NBib.w6+8YbOkbOMyiHAGbC+hcW.AAtArKLqrocrUu3ZEt+hQb2U2jWDcdba4hwEEmGI0Us=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EnwdVFk4iQcdIZZi6pWd.t9bOCFBZsWK6oxk4TD6ppq.YMUkrOsfPmJek+=")
+ki.login(token="EoGgEDm4fbXITsuDj1h3.m5X5B34I0MLNJSqaZLZ5uW.ncD5Ivv9vavi+zsYZ4KuHdQCRI6bGpLUy3o74jvAqGg=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="EncYJJWz3lMdPvCws8Bd.+FLnUeYnh6zLL2YE7vdi3q.3o///xyG0sXMtfy/rPUA+tBlHU0BAGdY=")
+ki2.login(token="EoA0Mxh1UUYSV8NbB2w1.wOe3+tIdNxRJik2Eaf7nOq.uJ92ObzaBk8AGBqNEO7X/aPyR1sNXpWz1bsol4HPpxs=")
 ki2.loginResult()
 
 print "login success plak"
