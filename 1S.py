@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EoH8Hapk9kydCRBw7CZf.Y1+Nv0VM7K2R4vRai1IQJW.3SeqBzTpoqHv7CTQj0YKFm7h2/OqAjgNcF4ocxcIfPA=")
 #cl.login(token='')
 cl.loginResult()
 print "===[Login Success]==="
@@ -54,7 +54,7 @@ helpMessage ="""
 """
 
 mid = cl.getProfile().mid
-Creator="ud8c4d53f17999c8e029827b67af3b06a"
+Creator="u5baffcc81a0a0689982216a005cfc70b"
 admin=[""]
 
 contact = cl.getProfile()
