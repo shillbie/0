@@ -1766,29 +1766,7 @@ def bot(op):
                                     cl.sendText(msg.to,"Succes Plak")
                                 except:
                                     cl.sendText(msg.to,"error")
-				
-				//Runtime bot by erpan
-
-import time
-
-mulai = time.time()
-
-
-//defnya
-
-def waktu(secs):
-    mins, secs = divmod(secs,60)
-    hours, mins = divmod(mins,60)
-    return '%02d Jam %02d Menit %02d Detik' % (hours, mins, secs)
-
-
-//commandnya
-
-            elif msg.text.lower() == 'Runtime':
-                eltime = time.time() - mulai
-                van = "Bot sudah berjalan selama "+waktu(eltime)
-                cl.sendText(msg.to,van)
-            
+								            
             #----------------Fungsi Banned User Target Start-----------------------#
             elif "Banned @" in msg.text:
               #if msg.from_ in admin:
