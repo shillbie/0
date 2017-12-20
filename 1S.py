@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE()
-cl.login(token="EoH8Hapk9kydCRBw7CZf.Y1+Nv0VM7K2R4vRai1IQJW.3SeqBzTpoqHv7CTQj0YKFm7h2/OqAjgNcF4ocxcIfPA=")
+cl.login(token="EoH8Hapk9kydCRBw7CZf.Y1+Nv0VM7K2R4vRai1IQJW./OqAjgNcF4ocxcIfPA=")
 #cl.login(token='')
 cl.loginResult()
 print "===[Login Success]==="
