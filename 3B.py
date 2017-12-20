@@ -2092,8 +2092,7 @@ def bot(op):
           if op.param2 in Bots:
             return
           ginfo = cl.getGroup(op.param1)
-          random.choice(KAC).sendText(op.param1, "╔═════════════\n║Selamat Datang Di  GC " + str(ginfo.name) + "\n╠═════════════\n" + "║pembuat grup =>>> " + str(ginfo.name) + " :\n║" + ginfo.creator.displayName + "\n╠═════════════\n" + "║😊Semoga Betah Kak 😘 \n╠═════════════\n║Budayakan Langsung cek Note ║y kak\n║😘😘😘😘\n╚═════════════")
-          random.choice(KAC).sendText(op.param1, "╔═════════════\n║NAMA PENGURUS GC \n╠═════════════\n║=>>>WINNA BAWEL>>>FOUNDER \n║=>>>ANDI ALFARIDJIE>>>ADMIN \n║=>>>Crish Chandra >>>ADMIN\n║=>>>Vhira shinaga>>>ADMIN\n║=>>>Windha >>>>ADMIN \n╠═════════════\n║kalo ada pertanyaan coba tanya \n║admin nya y kak \n╚═════════════")
+          random.choice(KAC).sendText(op.param1, "╔═════════════\n║Selamat Datang Di  GC " + str(ginfo.name) + "\n╠═════════════\n" + "║pembuat grup =>>> " + str(ginfo.name) + " :\n║" + ginfo.creator.displayName + "\n╠═════════════\n" + "║😊 😘 \n╠═════════════\n║ ║\n║😘😘😘😘\n╚═════════════")         
           #cl.sendText(op.param1, "Founder Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName)
           #cl.choice(KAC).sendText(op.param1,"Budayakan Baca Note !!! yah Ka 😊\nSemoga Betah Kk 😘")
           #print "MEMBER HAS JOIN THE GROUP"
