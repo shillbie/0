@@ -8,7 +8,7 @@ import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="Eo9JAZ9EZxtisgQ1BIa9.jgY02CIPGDqPM37XBk1j2q.VnhvDlTmGh5i+wg4dJbaR9coIoI9W3yQOifaYydHZKk=")#1
+cl.login(token="EozjY8UADjOAAKYYeDU3.pY1Ri6VEvU2/Z4xKdKmpOW.IQ7v5zinIhMNj5WDcoJla28dcUoESrB/AE1lUAjeNnc=")#1
 cl.loginResult()
 
 ki = LINETCR.LINE() 
@@ -121,10 +121,10 @@ k18 = LINETCR.LINE()
 k18.login(token="EobDxONqvfQiTM1eiZoa.yhTZoqDumxUp5mO/cE6owG.5R4j2lEXoLi41b+9dhpyq9qXqScMqPtMaDzKDgD4lGw=")#3
 k18.loginResult()
 
-k19 = LINETCR.LINE() 
+#k19 = LINETCR.LINE() 
 #k19.login(qr=True)
-k19.login(token="EozjY8UADjOAAKYYeDU3.pY1Ri6VEvU2/Z4xKdKmpOW.IQ7v5zinIhMNj5WDcoJla28dcUoESrB/AE1lUAjeNnc=")#4
-k19.loginResult()
+#k19.login(token="")#4
+#k19.loginResult()
 
 #k20 = LINETCR.LINE() 
 #k20.login(qr=True)
@@ -349,8 +349,8 @@ Setgroup ="""
 ║     ✰ s̶t̶a̶r̶ b̶o̶t̶ ✰
 ╚═════════════
 """
-KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20]
-DEF=[ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20]
+KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k20]
+DEF=[ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k20]
 kicker=[satpam1]
 mid = cl.getProfile().mid 
 Amid = ki.getProfile().mid 
@@ -375,7 +375,7 @@ Smid = k15.getProfile().mid
 Tmid = k16.getProfile().mid
 Umid = k17.getProfile().mid
 Vmid = k18.getProfile().mid
-Wmid = k19.getProfile().mid
+#Wmid = k19.getProfile().mid
 #Xmid = k20.getProfile().mid
 Smid1 = satpam1.getProfile().mid
 
@@ -386,10 +386,10 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid]
 induk=[mid]
 Creator=["u5baffcc81a0a0689982216a005cfc70b","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-admin=["u5baffcc81a0a0689982216a005cfc70b","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid] #i̺͆y̺͆o̺͆😎na,i̺͆y̺͆o̺͆😎,
+admin=["u5baffcc81a0a0689982216a005cfc70b","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid] #i̺͆y̺͆o̺͆😎na,i̺͆y̺͆o̺͆😎,
 owner=["u5baffcc81a0a0689982216a005cfc70b","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
 wait = {
     'contact':False,
