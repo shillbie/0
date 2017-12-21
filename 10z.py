@@ -57,7 +57,7 @@ k5.login(token="EoxHDixC1ClNfU5PvGVd.t9bOCFBZsWK6oxk4TD6ppq.20vZuCDnA71YqwjqMMKn
 k5.loginResult()
 
 satpam1 = LINETCR.LINE()  
-satpam1.login(token="Eo53BSduMakbPbaVOaId.+FLnUeYnh6zLL2YE7vdi3q.1Uqzfd2AKKRgpaJiBX/aTDWACOaNtREWmGPbW1x1xMg=")
+satpam1.login(token="EojlbOOcE3ubITstr6x1.wOe3+tIdNxRJik2Eaf7nOq.cBLQ52xJf1JVZyh6Xss2p8OC+X3tcItPHAA6x6dOnKs=")
 #satpam1.login(qr=True)
 satpam1.loginResult()
 
