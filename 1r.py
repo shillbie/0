@@ -61,11 +61,9 @@ helpMessage ="""╔═════════════
 
 Setgroup =""" 
     S̶t̶a̶r̶t̶ b̶o̶t̶"""
-KAC=[ki,ki2,cl]
+KAC=[cl]
 mid = cl.getProfile().mid
-kimid = ki.getProfile().mid
-ki2mid = ki2.getProfile().mid
-Bots=[mid,kimid,ki2mid]
+Bots=[mid]
 owner =["u5baffcc81a0a0689982216a005cfc70b"]
 admin = ["u5baffcc81a0a0689982216a005cfc70b"]
 wait = {
