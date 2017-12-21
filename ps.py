@@ -6,11 +6,11 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="EoE1djgvIBpHta4Uvb1b.w6+8YbOkbOMyiHAGbC+hcW.uyMjf/ba1LdxPD2q91MGgn8NMtvJwCX3Nb7WFHHUxf0=")
+cl.login(token="EoE1da4Uvb1b.w6+8YbOkbOMyiHAGbC+hcW.uyMjf/ba1LdxPD2q91MGgn8NMtvJwCX3Nb7WFHHUxf0=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="EoAoB0uocyqObO5FF3z3.m5X5B34I0MLNJSqaZLZ5uW.NJk9F7ck1Nq2pJSgaLJ0EuAloZiD7KorhoZBOAKwAzU=")
+ki.login(token="EoAoBObO5FF3z3.m5X5B34I0MLNJSqaZLZ5uW.NJk9F7ck1Nq2pJSgaLJ0EuAloZiD7KorhoZBOAKwAzU=")
 ki.loginResult()
 
 print "===[Login Success]==="
