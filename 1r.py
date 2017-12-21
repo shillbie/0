@@ -6,16 +6,8 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="En73yLnPVmEvlOL2Cyy6.DJfCP5tT35HajOsEmvX6PG.o92huCAdT3jNo79au3QPJlLHis5SBJ5Yi5maOJzEPe4=")
+cl.login(token="EoLHSboJIIaryaFZglB3.+ARlLimciziT6aHVfARJCW.62QzDc7GNth7s/nsYZjw48fIfpgk/3AnGdLXwZUufcM=")
 cl.loginResult()
-
-ki = LINETCR.LINE()
-ki.login(token="EnwdVFk4iQcdIZZi6pWd.t9bOCFBZsWK6oxk4TD6ppq.YMUkrOsfPmJek+eEq4HkLTLxju3BI6lIuiDfKGPn9bg=")
-ki.loginResult()
-
-ki2 = LINETCR.LINE()
-ki2.login(token="EncYJJWz3lMdPvCws8Bd.+FLnUeYnh6zLL2YE7vdi3q.3o//EU5VpS301pj/xyG0sXMtfy/rPUA+tBlHU0BAGdY=")
-ki2.loginResult()
 
 print "login success plak"
 reload(sys)
@@ -48,7 +40,7 @@ helpMessage ="""╔═════════════
 ║╠[20]Bc
 ║╠[21]Spam
 ║╠[22]Bot1/2 rename
-║╠[23]Allbio:
+║╠[23]
 ║╠[24]Copy←→Backup
 ║╠[25]List group
 ║╠[26]/invitemeto:
@@ -69,13 +61,13 @@ helpMessage ="""╔═════════════
 
 Setgroup =""" 
     S̶t̶a̶r̶t̶ b̶o̶t̶"""
-KAC=[cl,ki,ki2]
+KAC=[ki,ki2,cl]
 mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
 owner =["u5baffcc81a0a0689982216a005cfc70b"]
-admin = ["u5baffcc81a0a0689982216a005cfc70b","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u5a8137fd38839d7ae320ad9e005ecda1",mid,kimid,ki2mid]
+admin = ["u5baffcc81a0a0689982216a005cfc70b"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -2092,8 +2084,7 @@ def bot(op):
           if op.param2 in Bots:
             return
           ginfo = cl.getGroup(op.param1)
-          random.choice(KAC).sendText(op.param1, "╔═════════════\n║Selamat Datang Di  GC " + str(ginfo.name) + "\n╠═════════════\n" + "║pembuat grup =>>> " + str(ginfo.name) + " :\n║" + ginfo.creator.displayName + "\n╠═════════════\n" + "║😊Semoga Betah Kak 😘 \n╠═════════════\n║Budayakan Langsung cek Note ║y kak\n║😘😘😘😘\n╚═════════════")
-          random.choice(KAC).sendText(op.param1, "╔═════════════\n║NAMA PENGURUS GC \n╠═════════════\n║=>>>WINNA BAWEL>>>FOUNDER \n║=>>>ANDI ALFARIDJIE>>>ADMIN \n║=>>>Crish Chandra >>>ADMIN\n║=>>>Vhira shinaga>>>ADMIN\n║=>>>Windha >>>>ADMIN \n╠═════════════\n║kalo ada pertanyaan coba tanya \n║admin nya y kak \n╚═════════════")
+          random.choice(KAC).sendText(op.param1, "╔═════════════\n║Selamat Datang Di  GC " + str(ginfo.name) + "\n╠═════════════\n" + "║pembuat grup =>>> " + str(ginfo.name) + " :\n║" + ginfo.creator.displayName + "\n╠═════════════\n" + "║😊Semoga Betah Kak 😘 \n╠═════════════\n║Budayakan Langsung cek Note ║y kak\n║😘😘😘😘\n╚═════════════")         
           #cl.sendText(op.param1, "Founder Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName)
           #cl.choice(KAC).sendText(op.param1,"Budayakan Baca Note !!! yah Ka 😊\nSemoga Betah Kk 😘")
           #print "MEMBER HAS JOIN THE GROUP"
