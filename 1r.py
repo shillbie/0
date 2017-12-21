@@ -22,7 +22,7 @@ helpMessage ="""╔═════════════
 ║╠[2]Bot?
 ║╠[3]Respon
 ║╠[4]Cctv→Ciduk
-║╠[5]Tagall
+║╠[5]cipok
 ║╠[6]Banlist
 ║╠[7]Me
 ║╠[8]Info group
@@ -1586,7 +1586,7 @@ def bot(op):
     #-------------Fungsi Leave Group Finish---------------#
     
     #-------------Fungsi Tag All Start---------------#
-            elif msg.text in ["Tag all","Tagall"]:
+            elif msg.text in ["Cipok","Tagall"]:
             	 if msg.from_ in admin:
                   group = cl.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
