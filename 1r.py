@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="EoH8Hapk9kydCRBw7CZf.Y1+Nv0VM7K2R4vRai1IQJW.3SeqBzTpoqHv7CTQj0YKFm7h2/OqAjgNcF4ocxcIfPA=")
+cl.login(token="EoCletFshvcXWRmnT40b.w6+8YbOkbOMyiHAGbC+hcW.S9oobZEXjVK3IQlExpOv9NIQt8NTX7t6K7Nb5LLqqgQ=")
 cl.loginResult()
 
 print "login success plak"
