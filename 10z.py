@@ -8,7 +8,7 @@ import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="EomQZwXpaZTBO4QfDiMb.j0tevqX/kt6xRCOKoax7sW.2gPJoqh+4FppJ0W1pF317OXRTlelqkJGfh1ulv3qc8M=")
+cl.login(token="EomnzFAWPLfeODKyBQ7b.j0tevqX/kt6xRCOKoax7sW.NzJfaXL5i56tLUR4VV21Nemz84q6feGhRdej0jLH3Xw=")
 cl.loginResult()
 
 ki = LINETCR.LINE() 
