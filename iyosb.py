@@ -25,143 +25,143 @@ helpMessage ="""
 
 [ # ] Keyword [ # ]
 
-♬「 Myhelp 」
-♬「 Creator 」
-♬「 Gcreator 」
-♬「 List group: 」
-♬「 Leave group: 」
-♬「 Cancel 」
+[{o̺͆}]「 Myhelp 」
+[{o̺͆}]「 Creator 」
+[{o̺͆}]「 Gcreator 」
+[{o̺͆}]「 List group: 」
+[{o̺͆}]「 Leave group: 」
+[{o̺͆}]「 Cancel 」
 
 [ # ] Set command [ # ]
 
-♬「 Url:on/off 」
-♬「 Autojoin:on/off 」
-♬「 Autocancel:on/off 」
-♬「 Qr:on/off 」
-♬「 Autokick:on/off 」
-♬「 Contact:on/off 」
+[{o̺͆}]「 Url:on/off 」
+[{o̺͆}]「 Autojoin:on/off 」
+[{o̺͆}]「 Autocancel:on/off 」
+[{o̺͆}]「 Qr:on/off 」
+[{o̺͆}]「 Autokick:on/off 」
+[{o̺͆}]「 Contact:on/off 」
 
 [ # ] Command in Groups [ # ]
 
-♬「 Gift1-3 」
-♬「 Tag all/Mention all」
-♬「 Bintit 」
-♬「 Viewseen 」
-♬「 Boom  @ 」
-♬「 Add all 」
-♬「 Recover 」
-♬「 Remove all chat 」
-♬「 Gn: [ name ] 」
-♬「 Kick: [ mid ] 」
-♬「 Invite: [ mid ] 」
-♬「 Welcome 」
-♬「 Bc: [ text ] 」
-♬「 Cancelall 」 
-♬「 Gurl 」
-♬「 Self Like 」
-♬「 Speedbot 」
-♬「 Ban 」
-♬「 Unban 」
-♬「 Ban  @ 」
-♬「 Unban  @ 」
-♬「 Banlist 」
-♬「 Kill ban 」
-♬「 Mid  @ 」
-♬「 Kernel 」
-♬「 random: [ jumlah ] 」
-♬「 Gcreator:inv 」
-♬「 Gcreator 」
-♬「 Cipok 」
-♬「 Kickall 」
-♬「 Reboot 」
-♬「 Runtime 」
-♬「 Blacklist  @  」
+[{o̺͆}]「 Gift1-3 」
+[{o̺͆}]「 Tag all/Mention all」
+[{o̺͆}]「 Bintit 」
+[{o̺͆}]「 Viewseen 」
+[{o̺͆}]「 Boom  @ 」
+[{o̺͆}]「 Add all 」
+[{o̺͆}]「 Recover 」
+[{o̺͆}]「 Remove all chat 」
+[{o̺͆}]「 Gn: [ name ] 」
+[{o̺͆}]「 Kick: [ mid ] 」
+[{o̺͆}]「 Invite: [ mid ] 」
+[{o̺͆}]「 Welcome 」
+[{o̺͆}]「 Bc: [ text ] 」
+[{o̺͆}]「 Cancelall 」 
+[{o̺͆}]「 Gurl 」
+[{o̺͆}]「 Self Like 」
+[{o̺͆}]「 Speedbot 」
+[{o̺͆}]「 Ban 」
+[{o̺͆}]「 Unban 」
+[{o̺͆}]「 Ban  @ 」
+[{o̺͆}]「 Unban  @ 」
+[{o̺͆}]「 Banlist 」
+[{o̺͆}]「 Kill ban 」
+[{o̺͆}]「 Mid  @ 」
+[{o̺͆}]「 Kernel 」
+[{o̺͆}]「 random: [ jumlah ] 」
+[{o̺͆}]「 Gcreator:inv 」
+[{o̺͆}]「 Gcreator 」
+[{o̺͆}]「 Cipok 」
+[{o̺͆}]「 Kickall 」
+[{o̺͆}]「 Reboot 」
+[{o̺͆}]「 Runtime 」
+[{o̺͆}]「 Blacklist  @  」
 
 [ # ] Profile Command [ # ]
 
-♬「 Myname: 」
-♬「 Mybio: 」
-♬「 Copy  @ 」
-♬「 Backup me 」 
+[{o̺͆}]「 Myname: 」
+[{o̺͆}]「 Mybio: 」
+[{o̺͆}]「 Copy  @ 」
+[{o̺͆}]「 Backup me 」 
 
 [ # ]  System Command [ # ]
 
-♬「 Ifconfig 」
-♬「 Kernel  」
-♬「 Cpu 」
-♬「 System 」
-♬「 Say 」
+[{o̺͆}]「 Ifconfig 」
+[{o̺͆}]「 Kernel  」
+[{o̺͆}]「 Cpu 」
+[{o̺͆}]「 System 」
+[{o̺͆}]「 Say 」
 
 [ # ] Audio Command [ # ]
 
-♬「 Say-en 」English
-♬「 Say-af  」Africans
-♬「 Say-ko 」Korean
-♬「 Say-id  」Indonesian
-♬「 Say-de 」Germany
-♬「 Say-ja  」Japan
-♬「 Say-pl  」Polish
-♬「 Music  」
-♬「 Lyric」
+[{o̺͆}]「 Say-en 」English
+[{o̺͆}]「 Say-af  」Africans
+[{o̺͆}]「 Say-ko 」Korean
+[{o̺͆}]「 Say-id  」Indonesian
+[{o̺͆}]「 Say-de 」Germany
+[{o̺͆}]「 Say-ja  」Japan
+[{o̺͆}]「 Say-pl  」Polish
+[{o̺͆}]「 Music  」
+[{o̺͆}]「 Lyric」
 
 [ # ] Stealing Command [ # ]
 
-♬「 Steal name @ 」
-♬「 Steal bio @ 」
-♬「 Steal status @ 」
-♬「 Steal contact @ 」
-♬「 Steal cover @ 」
-♬「 Steal pict @ 」
-♬「 Steal mid @ 」
-♬「 Steal group pict 」
-♬「 Midpict: 」
-♬「 Info @ 」
-♬「 Youtube 」
-♬「 Vidio 」
-♬「 Wiki 」
-♬「 Instagram 」
+[{o̺͆}]「 Steal name @ 」
+[{o̺͆}]「 Steal bio @ 」
+[{o̺͆}]「 Steal status @ 」
+[{o̺͆}]「 Steal contact @ 」
+[{o̺͆}]「 Steal cover @ 」
+[{o̺͆}]「 Steal pict @ 」
+[{o̺͆}]「 Steal mid @ 」
+[{o̺͆}]「 Steal group pict 」
+[{o̺͆}]「 Midpict: 」
+[{o̺͆}]「 Info @ 」
+[{o̺͆}]「 Youtube 」
+[{o̺͆}]「 Vidio 」
+[{o̺͆}]「 Wiki 」
+[{o̺͆}]「 Instagram 」
 
 [ # ] Transelate Command [ # ]
 
-♬「 Translate-idn 」
-♬「 Translate-eng 」
-♬「 Translate-japan 」
-♬「 Translate-thai」
-♬「 Spam [on/off] [jumlah] [text]」
-♬「 Image: (link) 」
-♬「 Searchimage 」
+[{o̺͆}]「 Translate-idn 」
+[{o̺͆}]「 Translate-eng 」
+[{o̺͆}]「 Translate-japan 」
+[{o̺͆}]「 Translate-thai」
+[{o̺͆}]「 Spam [on/off] [jumlah] [text]」
+[{o̺͆}]「 Image: (link) 」
+[{o̺͆}]「 Searchimage 」
 
 [ # ] New Command [ # ]
 
-♬ 「Spam gift」
-♬ 「Spam sticker」
-♬ 「Random sticker」
-♬ 「Random gift」
-♬ 「Random number」
-♬ 「Spam toket」
-♬ 「Spam anu」
-♬ 「Virus」
+[{o̺͆}] 「Spam gift」
+[{o̺͆}] 「Spam sticker」
+[{o̺͆}] 「Random sticker」
+[{o̺͆}] 「Random gift」
+[{o̺͆}] 「Random number」
+[{o̺͆}] 「Spam toket」
+[{o̺͆}] 「Spam anu」
+[{o̺͆}] 「Virus」
 
 [ # ] Chat command [ # ]
 
-♬ 「Bisakah 」
-♬ 「Dosa @」
-♬ 「Pahala @」
-♬ 「Dimana 」
-♬ 「Apakah 」
-♬ 「Besar cinta nama ke nama 」
+[{o̺͆}] 「Bisakah 」
+[{o̺͆}] 「Dosa @」
+[{o̺͆}] 「Pahala @」
+[{o̺͆}] 「Dimana 」
+[{o̺͆}] 「Apakah 」
+[{o̺͆}] 「Besar cinta nama ke nama 」
 
 [ # ] Assist command [ # ]
 
-♬ 「Assist clone @」 
-♬ 「Assist backup 」
-♬ 「Assist spam @」
-♬ 「Assist name: 」
-♬ 「Assist bio: 」
-♬ 「Assist speed」
-♬ 「Assist join」
-♬ 「Assist out」
-♬ 「Abist」
+[{o̺͆}] 「Assist clone @」 
+[{o̺͆}] 「Assist backup 」
+[{o̺͆}] 「Assist spam @」
+[{o̺͆}] 「Assist name: 」
+[{o̺͆}] 「Assist bio: 」
+[{o̺͆}] 「Assist speed」
+[{o̺͆}] 「Assist join」
+[{o̺͆}] 「Assist out」
+[{o̺͆}] 「Abist」
 
 
   ☬Ƥᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ɢ̶͎͚̥͎͔͕ͥ̿ᴀ̶̘̫͈̭͌͛͌̇̇̍s̶̪̭̱̼̼̉̈́ͪ͋̽̚ᴜ̶̟͎̲͕̼̲ͮͫͭ̋ͭ͛ͣ̈s̶̪̭̱̼̼̉̈́ͪ͋̽̚ ᴛ̶̘̟̼̉̈́͐͋͌̊ᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ᴀ̶̘̫͈̭͌͛͌̇̇̍ᴍ̶̘͈̺̪͓̺ͩ͂̾ͪ̀̋ ʙ̶͎̣̫͈̥̗͒͌̃͑̔̾ͅᴏ̶̜̓̇ͫ̉͊ͨᴛ̶̘̟̼̉̈́͐͋͌̊
@@ -217,7 +217,7 @@ def sendMessage(to, text, contentMetadata={}, contentType=0):
 def waktu(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
-    return '%02d Jam %02d Menit %02d Detik' % (hours, mins, secs)
+    return '%02d J̺͆a̺͆m̺͆ %02d M̺͆e̺͆n̺͆i̺͆t̺͆ %02d D̺͆e̺͆t̺͆i̺͆k̺͆' % (hours, mins, secs)
     
 #^deff searchimage
 
@@ -523,7 +523,7 @@ def bot(op):
 #//commandnya
             elif msg.text.lower() == 'runtime':
                 eltime = time.time() - mulai
-                van = "「Selbot sudah berjalan selama 」"+waktu(eltime)
+                van = "「ᴮᴼᵀ ˢᵁᴰᴬᴴ ᴮᴱᴿᴶᴬᴸᴬᴺ ˢᴱᴸᴬᴹᴬ」"+waktu(eltime)
                 cl.sendText(msg.to,van)                
             elif msg.text is None:
                 return
@@ -606,20 +606,22 @@ def bot(op):
                 cl.sendText(msg.to,"Dosanya " + tanya + " adalah " + jawaban + " " + basa)
 #-----------------------------------------------
             elif msg.text in ["List group"]:
-                gid = cl.getGroupIdsJoined()
+                gid = ki.getGroupIdsJoined()
                 h = ""
 		jml = 0
                 for i in gid:
-		    gn = cl.getGroup(i).name
-                    h += "♬【%s】\n" % (gn)
+		    gn = ki.getGroup(i).name
+                    h += "[{o̺͆}]【%s】\n" % (gn)
 		    jml += 1
-                cl.sendText(msg.to,"======[List Group]======\n"+ h +"Total group: "+str(jml))
+                ki.sendText(msg.to,"======[List Group]======\n"+ h +"Total group: "+str(jml))
 #--------------------------------------------------------
 	    elif "Leave group: " in msg.text:
 		ng = msg.text.replace("Leave group: ","")
 		gid = cl.getGroupIdsJoined()
+		gid = ki.getGroupIdsJoined()
                 for i in gid:
                     h = cl.getGroup(i).name
+                    h = ki.getGroup(i).name                    
 		    if h == ng:
 			cl.sendText(i,"Bye "+h+"~")
 		        cl.leaveGroup(i)
@@ -1243,44 +1245,52 @@ def bot(op):
 
 #--------------------------CEK SIDER------------------------------
 
-            elif msg.text == "Cctv":
-              if msg.from_ in admin:
-                    cl.sendText(msg.to, "Siap di intip....")
-                    try:
-                        del wait2['readPoint'][msg.to]
-                        del wait2['readMember'][msg.to]
-                    except:
-                        pass
-                    now2 = datetime.now()
-                    wait2['readPoint'][msg.to] = msg.id
-                    wait2['readMember'][msg.to] = ""
-                    wait2['setTime'][msg.to] = datetime.strftime(now2,'%Y-%m-%d %H:%M:%S')
-                    wait2['ROM'][msg.to] = {}
-                    print "[Command] Reset"
+            elif "Bintit" in msg.text:
+                subprocess.Popen("echo '' > dataSeen/"+msg.to+".txt", shell=True, stdout=subprocess.PIPE)
+                cl.sendText(msg.to, "sabar")
+                cl.sendText(msg.to, "lg di proses")
+                cl.sendText(msg.to, "dikit lg")
+                cl.sendText(msg.to, "•")
+                cl.sendText(msg.to, "••")
+                cl.sendText(msg.to, "•••")
+                ki.sendText(msg.to, "••••")                
+                print "@setview"
 
-            elif msg.text == "Intip":
-                 if msg.from_ in admin:
-                    if msg.to in wait2['readPoint']:
-                        if wait2["ROM"][msg.to].items() == []:
-                            chiya = ""
-                        else:
-                            chiya = ""
-                            for rom in wait2["ROM"][msg.to].items():
-                                print "[Command] Check"
-                                chiya += rom[1] + "\n"
-                        cl.sendText(msg.to, "✔ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰\nRead : %s\n\n✖ Sider :\n%s\nPoint creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+            elif "••••" in msg.text:
+	        lurkGroup = ""
+	        dataResult, timeSeen, contacts, userList, timelist, recheckData = [], [], [], [], [], []
+                with open('dataSeen/'+msg.to+'.txt','r') as rr:
+                    contactArr = rr.readlines()
+                    for v in xrange(len(contactArr) -1,0,-1):
+                        num = re.sub(r'\n', "", contactArr[v])
+                        contacts.append(num)
+                        pass
+                    contacts = list(set(contacts))
+                    for z in range(len(contacts)):
+                        arg = contacts[z].split('|')
+                        userList.append(arg[0])
+                        timelist.append(arg[1])
+                    uL = list(set(userList))
+                    for ll in range(len(uL)):
                         try:
-                            del wait2['readPoint'][msg.to]
-                            del wait2['readMember'][msg.to]
-                        except:
+                            getIndexUser = userList.index(uL[ll])
+                            timeSeen.append(time.strftime("%H:%M:%S", time.localtime(int(timelist[getIndexUser]) / 1000)))
+                            recheckData.append(userList[getIndexUser])
+                        except IndexError:
+                            conName.append('nones')
                             pass
-                        wait2['readPoint'][msg.to] = msg.id
-                        wait2['readMember'][msg.to] = ""
-                        wait2['setTime'][msg.to] = datetime.strftime(now2,'%Y-%m-%d %H:%M:%S')
-                        wait2['ROM'][msg.to] = {}
-                        print "[Command] reset"
+                    contactId = cl.getContacts(recheckData)
+                    for v in range(len(recheckData)):
+                        dataResult.append(contactId[v].displayName + ' ('+timeSeen[v]+')')
+                        pass
+                    if len(dataResult) > 0:
+                        tukang = "List Viewer\n*"
+                        grp = '\n* '.join(str(f) for f in dataResult)
+                        total = '\n\nTotal %i viewers (%s)' % (len(dataResult), datetime.now().strftime('%H:%M:%S') )
+                        cl.sendText(msg.to, "%s %s %s" % (tukang, grp, total))
                     else:
-                        cl.sendText(msg.to,"Read point tidak tersedia, Silahkan ketik Cctv untuk membuat Read point.")
+                        cl.sendText(msg.to, "Belum ada viewers")
+                    print "@viewseen"
 #--------------------------------------------------------
 
 #KICK_BY_TAG
@@ -1330,7 +1340,9 @@ def bot(op):
             elif "Invite: " in msg.text:
                 midd = msg.text.replace("Invite: ","")
                 cl.findAndAddContactsByMid(midd)
+                ki.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
+                ki.inviteIntoGroup(msg.to,[midd])
 #--------------------------------------------------------
             elif msg.text in ["#welcome","Welcome","welcome","Welkam","welkam"]:
                 gs = cl.getGroup(msg.to)
@@ -1414,7 +1426,7 @@ def bot(op):
 		print("Speed")
 		cl.sendText(msg.to, "「Please wait..」")
 		elapsed_time = time.time() - start
-                cl.sendText(msg.to, "♬「Speed : 0.04 - 0.07」\n♬「Speed is : %sseconds 」" % (elapsed_time))
+                cl.sendText(msg.to, "[{o̺͆}]「Speed : 0.04 - 0.07」\n[{o̺͆}]「Speed is : %sseconds 」" % (elapsed_time))
 
 #--------------------------------------------------------
             elif msg.text in ["Ban"]:
@@ -1453,10 +1465,18 @@ def bot(op):
                     print "success inv gCreator"
                  except:
                     pass
-            elif msg.text in ["Invite"]:
-            	if msg.from_ in staff:
+            elif msg.text in ["Undang"]:
+              if msg.from_ in admin:
                  wait["winvite"] = True
-                 cl.sendText(msg.to,"send contact ☬")
+                 cl.sendText(msg.to,"send contact")
+            elif msg.text in ["Tarik"]:
+              if msg.from_ in admin:
+                 wait["winvite2"] = True
+                 ki.sendText(msg.to,"send contact")
+            elif msg.text in ["Jepit"]:
+              if msg.from_ in admin:
+                 wait["winvite2"] = True
+                 ki.sendText(msg.to,"send contact")
 #-----------------------------------------------
 #-----------------------------------------------
             elif msg.text in ["Gcreator"]:
@@ -1669,11 +1689,17 @@ def bot(op):
                         for target in targets:
 			     if target not in admin:
                                 try:
-                                    cl.kickoutFromGroup(msg.to,[target])
+                                    ki.kickoutFromGroup(msg.to,[target])
                                     print (msg.to,[g.mid])
                                 except Exception as e:
                                     ki.sendText(msg.to,str(e))                                    
-			                        
+            elif "@"+cl.getProfile().displayName in msg.text:
+                try:
+                    tanya = msg.text.replace("@"+cl.getProfile().displayName,"")
+                    jawab = ("ada apa bro "+cl.getProfile().displayName+"nya lg sibuk, Kalo penting PM aja...!")                                    
+                    cl.sendText(msg.to,"jawaban")
+                except:
+                    pass                    
 #--------------------------------------------------------
 #Restart_Program
 	    elif msg.text in ["Reboot"]:
