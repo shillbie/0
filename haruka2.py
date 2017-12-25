@@ -1278,7 +1278,7 @@ def bot(op):
             elif msg.text in ["Key group","help group","Help group"]:
                 cl.sendText(msg.to,groupMessage)
 
-            elif msg.text in ["Key"]:
+            elif msg.text in ["help","Help"]:
                 cl.sendText(msg.to,helpMessage)
 
             elif msg.text in ["Key self","help self","Help self"]:
