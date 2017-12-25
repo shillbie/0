@@ -266,7 +266,7 @@ Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
 Creator="u5baffcc81a0a0689982216a005cfc70b"
-admin= ["u5baffcc81a0a0689982216a005cfc70b","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u31a54e26da314829c76fa084730dae76"mid,Amid,Bmid,Cmid,Dmid,Emid] 
+admin= ["u5baffcc81a0a0689982216a005cfc70b","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u31a54e26da314829c76fa084730dae76",mid,Amid,Bmid,Cmid,Dmid,Emid] 
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
