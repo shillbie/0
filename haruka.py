@@ -35,7 +35,7 @@ kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
-kr.login(token="EocaPpREYirvkNVKmwR9.Eh+xAjKRse5Gp+veh562Mq.P8SEe2e9svRCoNTAen0/cFtD3/llTBT7g3Eblg5jrBw=")
+kr.login(token="EoxEYUEanjP7WfRUFyT9.Eh+xAjKRse5Gp+veh562Mq.tQ8lSxYPVD/xTLoz7FJw9/Ox+vm5rVVrKIZUJ5ADJvw=")
 #kr.login(token='TOKEN_HERE')
 kr.loginResult()
 print "Kr-Login Success\n"
