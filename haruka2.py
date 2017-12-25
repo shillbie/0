@@ -11,37 +11,37 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(token="EolTwWyMAtyBJOeGS6Y3.m5X5B34I0MLNJSqaZLZ5uW.z32k4K065/0UzIUUcllKqyLEEPwhCT3WS1G7tuedHeI=")
+cl.login(token="EoPfTHWRKdNQ7S4xuGt3.m5X5B34I0MLNJSqaZLZ5uW.+4NBvI0z4kgL5GtZC/+UPY4gztbP8bt8045XvM8CLPc=")
 #cl.login(token='TOKEN_HERE')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
-ki.login(token="EoEnFQXSFj5cwfJ83B8b.j0tevqX/kt6xRCOKoax7sW.rhYiIUC1WGvkyIct6H6rgm+x8bxCOejqqtjJp60GDPc=")
+ki.login(token="Eop3xWjJ6psOa6Nb2sQb.j0tevqX/kt6xRCOKoax7sW.mxIXdqcdNoSurQRSnZ6By3BMPxTYoxZROFvQd2oBfa4=")
 #ki.login(token='TOKEN_HERE')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
-kk.login(token="EoBMe42KpbEqXq2FbjYc.64p7hMq5ZbXymY+T0gu3Na.b9PxJ5tdYYOiKAK6uMWI8JA+g12pK5r68HoldAOk6l0=")
+kk.login(token="EoBe6eEELKqMA84WnaIc.64p7hMq5ZbXymY+T0gu3Na.hlE/P7xUJXDVrnv32Pzmj4BlE8xCoWicYnFIexnLFWY=")
 #kk.login(token='TOKEN_HERE')
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
-kc.login(token="EonWRhZzfYZRhu7OUo0d.qcJOSgzQEpbuah+2LTD5Bq.CsBDbhbg63Tyjd+N5gftjqHXYNa59NtzBl7Jw+/J//U=")
+kc.login(token="EoNqAusmTfaICVAZfx8d.qcJOSgzQEpbuah+2LTD5Bq.BOVT/Y2paCY+R78yVvYJ1/EO9sKoGoT4T11yomwMGhk=")
 #kc.login(token='TOKEN_HERE')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
-kr.login(token="EoQbI3kLh5lDgBgZkns9.Eh+xAjKRse5Gp+veh562Mq.Zi5ZCtHqWYSpn6m978oMOZPH8vf6QBIICRCX746qth0=")
+kr.login(token="EocaPpREYirvkNVKmwR9.Eh+xAjKRse5Gp+veh562Mq.P8SEe2e9svRCoNTAen0/cFtD3/llTBT7g3Eblg5jrBw=")
 #kr.login(token='TOKEN_HERE')
 kr.loginResult()
 print "Kr-Login Success\n"
 
 km = LINETCR.LINE()
-km.login(token="Eo6St0Z70nOJkOUww131.wOe3+tIdNxRJik2Eaf7nOq.7ObZqOFDzG3s4x5nDzz/6l7XSyKXuurzUmE3UI4Kk1I=")
+km.login(token="EoyWlDhaGQ9HFk57CEE1.wOe3+tIdNxRJik2Eaf7nOq.aEIaDx+W/MnIge2Rw0FuXWwyCpFvH6GfNs3UPIGjksw=")
 #km.login(token='TOKEN_HERE')
 km.loginResult()
 print "Km-Login Success\n\n=====[Sukses All Login]====="
