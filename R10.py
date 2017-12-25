@@ -2037,7 +2037,7 @@ def bot(op):
                     cl.sendText(msg.to,helpMessage)
                 else:
                     cl.sendText(msg.to,helpt)
-            elif msg.text in ["Key","key"]:
+            elif msg.text in ["Mimin2"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,Keyowner)
                 else:
