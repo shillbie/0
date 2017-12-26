@@ -6,11 +6,11 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="Eo98KIgZCzRqFx1nmavb.w6+8YbOkbOMyiHAGbC+hcW.00yUqry8QO7i0V14jVjMsnED9wmjc1yhTZfuBxormEY=")
+cl.login(token="EoHZkGNBkpgyJYM6SJyb.wvTH9/seZu9vDRNQs/ArwW.se10qzyGtgh9VXw7wP1AFVYJUlrPRrGm7QkTtHenHU4=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="Eohb0n8xxNnnxSZ9tqG3.m5X5B34I0MLNJSqaZLZ5uW.dtmFiL+B0rIfvqwCkzvS9NHhDtEU4Rlr7knMF4AXsNg=")
+ki.login(token="EozToVovkfQgzjDJRCLb.j0tevqX/kt6xRCOKoax7sW.P1GQ4WO/54iEn6uhvwAj4R2tjUFmWaUfYA+2Rr2tNTU=")
 ki.loginResult()
 
 print "===[Login Success]==="
@@ -1292,7 +1292,7 @@ def bot(op):
                 cl.sendText(msg.to, "lg di proses")                
                 print "@setview"
 
-            elif "••••" in msg.text:
+            elif "Tan" in msg.text:
 	        lurkGroup = ""
 	        dataResult, timeSeen, contacts, userList, timelist, recheckData = [], [], [], [], [], []
                 with open('dataSeen/'+msg.to+'.txt','r') as rr:
