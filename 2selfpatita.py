@@ -6,11 +6,11 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="Eo98KIgZCzRqFx1nmavb.w6+8YbOkbOMyiHAGbC+hcW.00yUqry8QO7i0V14jVjMsnED9wmjc1yhTZfuBxormEY=")
+cl.login(token="EonE2Sp7cYwrFtWRYmr8.T7mFQBm+GjzYPaQyqL9z6a.oHkDkb9KMmLJzFnGn0Giobw9CPuX0D/LWXUT1dYLAR8=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="Eohb0n8xxNnnxSZ9tqG3.m5X5B34I0MLNJSqaZLZ5uW.dtmFiL+B0rIfvqwCkzvS9NHhDtEU4Rlr7knMF4AXsNg=")
+ki.login(token="EozToVovkfQgzjDJRCLb.j0tevqX/kt6xRCOKoax7sW.P1GQ4WO/54iEn6uhvwAj4R2tjUFmWaUfYA+2Rr2tNTU")
 ki.loginResult()
 
 print "===[Login Success]==="
@@ -174,8 +174,8 @@ helpMessage ="""
 KAC=[ki] 
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
-Creator="u5baffcc81a0a0689982216a005cfc70b"
-admin=["u5baffcc81a0a0689982216a005cfc70b","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u5a8137fd38839d7ae320ad9e005ecda1","ub80075ee3659acb3cfb51dfb3903451b","u4028e8b0666a78f054007ff696d7796d","u787fd768992b484e603ff5441f9eb699","u385a4a012015cc7964778a165514ac9a","u2744c4550c7e293e97adca243805fb4b","ufd259e96c3022e3743b9898a54e0136a","ua5aaf0948ab5631f2013bb50186d5f06","u6fb1bd6b5af0f27bbdb88ecb6a1468c0","u76315ca794eddf984026849e315c7aa6","u4fd06871f6f34b093a3972b8b5de8f3d","ueb83fb1e6439cc1c58332fedd065379c",Amid]
+Creator="u246cb4d9c8a981d4299b7ef16cad49d9"
+admin=["u246cb4d9c8a981d4299b7ef16cad49d9","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u5a8137fd38839d7ae320ad9e005ecda1","ub80075ee3659acb3cfb51dfb3903451b","u4028e8b0666a78f054007ff696d7796d","u787fd768992b484e603ff5441f9eb699","u385a4a012015cc7964778a165514ac9a","u2744c4550c7e293e97adca243805fb4b","ufd259e96c3022e3743b9898a54e0136a","ua5aaf0948ab5631f2013bb50186d5f06","u6fb1bd6b5af0f27bbdb88ecb6a1468c0","u76315ca794eddf984026849e315c7aa6","u4fd06871f6f34b093a3972b8b5de8f3d","ueb83fb1e6439cc1c58332fedd065379c",Amid]
 
 contact = cl.getProfile()
 backup = cl.getProfile()
@@ -1292,7 +1292,7 @@ def bot(op):
                 cl.sendText(msg.to, "lg di proses")                
                 print "@setview"
 
-            elif "••••" in msg.text:
+            elif "Tan" in msg.text:
 	        lurkGroup = ""
 	        dataResult, timeSeen, contacts, userList, timelist, recheckData = [], [], [], [], [], []
                 with open('dataSeen/'+msg.to+'.txt','r') as rr:
