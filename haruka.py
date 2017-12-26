@@ -11,19 +11,19 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(token="EoPfTHWRKdNQ7S4xuGt3.m5X5B34I0MLNJSqaZLZ5uW.+4NBvI0z4kgL5GtZC/+UPY4gztbP8bt8045XvM8CLPc=")
+cl.login(token="Eohb0n8xxNnnxSZ9tqG3.m5X5B34I0MLNJSqaZLZ5uW.dtmFiL+B0rIfvqwCkzvS9NHhDtEU4Rlr7knMF4AXsNg=")
 #cl.login(token='TOKEN_HERE')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
-ki.login(token="Eop3xWjJ6psOa6Nb2sQb.j0tevqX/kt6xRCOKoax7sW.mxIXdqcdNoSurQRSnZ6By3BMPxTYoxZROFvQd2oBfa4=")
+ki.login(token="EozToVovkfQgzjDJRCLb.j0tevqX/kt6xRCOKoax7sW.P1GQ4WO/54iEn6uhvwAj4R2tjUFmWaUfYA+2Rr2tNTU=")
 #ki.login(token='TOKEN_HERE')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
-kk.login(token="EoBe6eEELKqMA84WnaIc.64p7hMq5ZbXymY+T0gu3Na.hlE/P7xUJXDVrnv32Pzmj4BlE8xCoWicYnFIexnLFWY=")
+kk.login(token="EoOq2eP6qawPfyuQKKhc.64p7hMq5ZbXymY+T0gu3Na.Uta/Sc6UNIz4kaS7xbRsejoku1fGrvaJLqCNOinG4gg=")
 #kk.login(token='TOKEN_HERE')
 kk.loginResult()
 print "Kk-Login Success\n"
@@ -35,13 +35,13 @@ kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
-kr.login(token="EoxEYUEanjP7WfRUFyT9.Eh+xAjKRse5Gp+veh562Mq.tQ8lSxYPVD/xTLoz7FJw9/Ox+vm5rVVrKIZUJ5ADJvw=")
+kr.login(token="EoRalg7mv4EdJCdUAkyd.qcJOSgzQEpbuah+2LTD5Bq.py3U2cX1tXabMtVjuD/eawEz6AUe93aCqbC5cKC+c9U=")
 #kr.login(token='TOKEN_HERE')
 kr.loginResult()
 print "Kr-Login Success\n"
 
 km = LINETCR.LINE()
-km.login(token="EoyWlDhaGQ9HFk57CEE1.wOe3+tIdNxRJik2Eaf7nOq.aEIaDx+W/MnIge2Rw0FuXWwyCpFvH6GfNs3UPIGjksw=")
+km.login(token="EoNC5hpTy8UutPorVNe1.wOe3+tIdNxRJik2Eaf7nOq.QaeWrp9DbPgUobBiwfz77lGeG2h4ZMxR4EzbNvsUEs4=")
 #km.login(token='TOKEN_HERE')
 km.loginResult()
 print "Km-Login Success\n\n=====[Sukses All Login]====="
@@ -2289,7 +2289,7 @@ def bot(op):
                 cl.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "u14f64e139a3817afaabe27d237afb36b"
+                midd = "u5baffcc81a0a0689982216a005cfc70b"
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
 #--------------------------------------------------------
