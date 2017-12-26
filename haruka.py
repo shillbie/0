@@ -29,13 +29,13 @@ kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
-kc.login(token="EoNqAusmTfaICVAZfx8d.qcJOSgzQEpbuah+2LTD5Bq.BOVT/Y2paCY+R78yVvYJ1/EO9sKoGoT4T11yomwMGhk=")
+kc.login(token="EoRalg7mv4EdJCdUAkyd.qcJOSgzQEpbuah+2LTD5Bq.py3U2cX1tXabMtVjuD/eawEz6AUe93aCqbC5cKC+c9U=")
 #kc.login(token='TOKEN_HERE')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
-kr.login(token="EoRalg7mv4EdJCdUAkyd.qcJOSgzQEpbuah+2LTD5Bq.py3U2cX1tXabMtVjuD/eawEz6AUe93aCqbC5cKC+c9U=")
+kr.login(token="Eo8iWv2yY2r5WmvtBzf9.Eh+xAjKRse5Gp+veh562Mq.hOSep63CJDfUzsZcn+oUbqAlPjtbigdOu6IsdgPkE1w=")
 #kr.login(token='TOKEN_HERE')
 kr.loginResult()
 print "Kr-Login Success\n"
