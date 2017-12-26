@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="EonE2Sp7cYwrFtWRYmr8.T7mFQBm+GjzYPaQyqL9z6a.oHkDkb9KMmLJzFnGn0Giobw9CPuX0D/LWXUT1dYLAR8=")
+cl.login(token="EoX1uA1LEz7SMZdDaf1e.CG4Lu/FNtH1wX5D3xTPvJG.SKi5Hqy+B3zY3/muJyNZwm/+PIGLI6iLdnoeXZQyT0c=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
@@ -174,8 +174,8 @@ helpMessage ="""
 KAC=[ki] 
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
-Creator="ub7b31fa9b33f809672a40a98425f59e8"
-admin=["ub7b31fa9b33f809672a40a98425f59e8","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u5a8137fd38839d7ae320ad9e005ecda1","ub80075ee3659acb3cfb51dfb3903451b","u4028e8b0666a78f054007ff696d7796d","u787fd768992b484e603ff5441f9eb699","u385a4a012015cc7964778a165514ac9a","u2744c4550c7e293e97adca243805fb4b","ufd259e96c3022e3743b9898a54e0136a","ua5aaf0948ab5631f2013bb50186d5f06","u6fb1bd6b5af0f27bbdb88ecb6a1468c0","u76315ca794eddf984026849e315c7aa6","u4fd06871f6f34b093a3972b8b5de8f3d","ueb83fb1e6439cc1c58332fedd065379c",Amid]
+Creator="u720e2553e7e74e1d56c797775eda558e"
+admin=["u720e2553e7e74e1d56c797775eda558e","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u5a8137fd38839d7ae320ad9e005ecda1","ub80075ee3659acb3cfb51dfb3903451b","u4028e8b0666a78f054007ff696d7796d","u787fd768992b484e603ff5441f9eb699","u385a4a012015cc7964778a165514ac9a","u2744c4550c7e293e97adca243805fb4b","ufd259e96c3022e3743b9898a54e0136a","ua5aaf0948ab5631f2013bb50186d5f06","u6fb1bd6b5af0f27bbdb88ecb6a1468c0","u76315ca794eddf984026849e315c7aa6","u4fd06871f6f34b093a3972b8b5de8f3d","ueb83fb1e6439cc1c58332fedd065379c",Amid]
 
 contact = cl.getProfile()
 backup = cl.getProfile()
