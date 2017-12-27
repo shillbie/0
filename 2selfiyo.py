@@ -15,7 +15,7 @@ from gtts import gTTS
 import urllib3
 
 cl = LINETCR.LINE()
-cl.login(token="Eo98KIgZCzRqFx1nmavb.w6+8YbOkbOMyiHAGbC+hcW.00yUqry8QO7i0V14jVjMsnED9wmjc1yhTZfuBxormEY=")
+cl.login(token="EopDyD6Lk95g6epLh4ob.w6+8YbOkbOMyiHAGbC+hcW.biCDV2H5iZgsNwem3P/8YOr8sBtz2RVl05IUBPYatVQ=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
