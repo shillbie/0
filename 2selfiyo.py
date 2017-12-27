@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
 # Tolong jangan ubah mid creator || Hargai saya
 import LINETCR
+import wikipedia
+import urllib
+import subprocess
+import profile
+import requests
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
+import time,random,sys,json,codecs,threading,glob,re
 from bs4 import BeautifulSoup
-import time,random,sys,re,os,json,subprocess,threading,string,codecs,requests,tweepy,ctypes,urllib,urllib2,wikipedia,tempfile,glob,shutil,unicodedata,goslate, timeit
+from threading import Thread
 from gtts import gTTS
-
+import urllib3
 
 cl = LINETCR.LINE()
 cl.login(token="Eo98KIgZCzRqFx1nmavb.w6+8YbOkbOMyiHAGbC+hcW.00yUqry8QO7i0V14jVjMsnED9wmjc1yhTZfuBxormEY=")
