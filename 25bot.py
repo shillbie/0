@@ -8,122 +8,122 @@ import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="EozjY8UADjOAAKYYeDU3.pY1Ri6VEvU2/Z4xKdKmpOW.IQ7v5zinIhMNj5WDcoJla28dcUoESrB/AE1lUAjeNnc=")#1
+cl.login(token="EoTnP14D0bIeswKwzPc8.T7mFQBm+GjzYPaQyqL9z6a.IeiE6zcRTJxGrpXwnEVfBkhli3es5iztzZHfmzoD2Is=")#1
 cl.loginResult()
 
 ki = LINETCR.LINE() 
 #ki.login(qr=True)
-ki.login(token="EopmMgQJnWE0ZcesRlC5.MIBFhIrgsiTsN/VS8zryfq.rFetKXuV1HemlGLUtVVg3osmjwuyKnjNez0ja+Savzw=")#2
+ki.login(token="EozMXG8HWE6uSXSRLzi9.gVGX9tF6o7amWpzYrjHsUq.7mXbH/Un/A/YoJC2hRbPLBmkDW/xrzCHp8rAVnfc5gs=")#2
 ki.loginResult()
 
 kk = LINETCR.LINE() 
 #kk.login(qr=True)
-kk.login(token="EobgrJUMmVUyt0aY0Mo1.yKFfXNHbZ6qtfp7tNpuR8q.p7nMKY5tSO4LtfcrZG/Vz6KrKTr3OMbLYfzIU/M/b4o=")#3
+kk.login(token="EolVfR9H4cQKcQrYxKV8.K3Oqllx0kWufSn6/F4SSca.fF2hoRCuV1bPwWxmd2EwRofHGONLTu055g6o0urADTk=")#3
 kk.loginResult()
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token="EoNyCIY6CvIB7rzTVFhe.ml+nSBOQmP2BlBEr48iMtG.qPHpnuWh4f/mrN2C2LuIVHBzWoYDOzxnXiVU6743dFU=")#4
+kc.login(token="EoeEzJVegPYciWcSIwM2.F4O/Xzwa4zuaklNahVQUqG.kX4NywD3Oe1P0ybzM5WRVrlxkgtsu4ypPYpltUD6tT4=")#4
 kc.loginResult()
 
 ks = LINETCR.LINE() 
 #ks.login(qr=True)
-ks.login(token="EopdUhBdujcybYDX7ZR8.qqZ/3WCYLYXBPJ3skUeUUa.t9DWJR1mCk3ig4zo6Qy5zKav6nLWPfo14oqk9a7h8y0=")#5
+ks.login(token="EoQMWOUQjmAtA2U2ywI5.R9Vu1+vbdKEwieDa1+djvq.M7r7+ExedGUnqBEXpDBuYveGJzq/Oz8s4fABj67mBsU=")#5
 ks.loginResult()
 
 k1 = LINETCR.LINE() 
 #k1.login(qr=True)
-k1.login(token="Eoa3CdpYSAM5qHPvGMic.9PJ0thpd/wz+X8jQKMtfZa.WIiHfy+iLeMANoCA7Qcro3eMzpWn6JgaA0SzhrLqxDI=")#6
+k1.login(token="Eow1xhpNvm4e1Xh3CNFd.3Xm6QXer3U3S4fI9OCrYlq.4jhUSUkWgP794JlLo7fvoePKg8gDNPdqPWFbP3B3dRY=")#6
 k1.loginResult()
 
 k2 = LINETCR.LINE() 
 #k2.login(qr=True)
-k2.login(token="EoV1pC8WwnZU9rFsZ1Ya.VZob3ojbXXFR0EsUZhJnQG.BSPKP7OyMv9ONq64QdwK175eWdGJNzFD5DRx9G3dFTU=")#7
+k2.login(token="EoZSShcJ8AcWltlAyT3a.q49U7JI0YEJYizL7YqazcG.4w4KRpjsgHPyR5TTO+Ka1emjYtdk71isvOd8rUgZEPs=")#7
 k2.loginResult()
 
 k3 = LINETCR.LINE() #
 #k3.login(qr=True)
-k3.login(token="EoWaZhDNJMTZl1N7fvca.o0EA5MdW3MQXfXcQb8A3UG.ZVULFuNzC4SfLoDZZNYILrQlowFwVD1eeNcCOzUBazo=")#8
+k3.login(token="EoKmxzYUu1Surx99gOW0.cGNGfVF0nUj2ohinMhB0Ga.seztkA0ayet77l5Ucd383aBt3qvFpv+hI5DPFIYGQhs=")#8
 k3.loginResult()
 
-k4 = LINETCR.LINE() #
+#k4 = LINETCR.LINE() #
 #k4.login(qr=True)
-k4.login(token="EoWHmP2LA30mJwas1qN0.CPryA+bOaES2dZ3fh+JLaa./U8TglhLN9/IpWwm3GjjL/SVOS2stsBC/aM5AJlqQFM=")#9
-k4.loginResult()
+#k4.login(token="EoWHmP2LA30mJwas1qN0.CPryA+bOaES2dZ3fh+JLaa./U8TglhLN9/IpWwm3GjjL/SVOS2stsBC/aM5AJlqQFM=")#9
+#k4.loginResult()
 
 k5 = LINETCR.LINE() #
 #k5.login(qr=True)
-k5.login(token="Eou0ZqEiE96ftMtTIbNd.KxCOGzZfnFWUyjzuP3OPtq.AOYih3aSvQ9ydLk/CtK/fKyIB6xMHxeAOM5SUveXvJY=")#10
+k5.login(token="Eo3H6M42CummqpigROf6.WiAY5T4xW3xLCTzdOFN6fG.6hFrvHP1C67h4+z4HMBMaOTvCGjxAccOihx92b7QaJ0=")#10
 k5.loginResult()
 
-k6 = LINETCR.LINE()
+#k6 = LINETCR.LINE()
 #k6.login(qr=True)
-k6.login(token="EoMB8bvVDi0CWna3MyXe.ZyIijJ0iuSPM1n+hcx8+JG.x11o8nhRJ+Y8j7G3Zxk+I4474XVN8GELGHeGXpTITkw=")#1
-k6.loginResult()
+#k6.login(token="EoMB8bvVDi0CWna3MyXe.ZyIijJ0iuSPM1n+hcx8+JG.x11o8nhRJ+Y8j7G3Zxk+I4474XVN8GELGHeGXpTITkw=")#1
+#k6.loginResult()
 
-k7 = LINETCR.LINE()
+#k7 = LINETCR.LINE()
 #k7.login(qr=True)
-k7.login(token="Eon2QOhvFsRm0wxwtII9.beSI/oCf3qHqjJ3W6S5rkq.UFeniwy/l/liRoS027qWwAMA241udDhaPRt+AdsVpOo=")#2
-k7.loginResult()
+#k7.login(token="Eon2QOhvFsRm0wxwtII9.beSI/oCf3qHqjJ3W6S5rkq.UFeniwy/l/liRoS027qWwAMA241udDhaPRt+AdsVpOo=")#2
+#k7.loginResult()
 
-k8 = LINETCR.LINE()
+#k8 = LINETCR.LINE()
 #k8.login(qr=True)
-k8.login(token="EomHsawtZZcrSn7yD745.hCBYhI9aBK+qwilS+q/KXq.nbSIdOqIK+mFWdU3Xs2hVIgO2oAKffGzh/ENGuRmElU=")#3
-k8.loginResult()
+#k8.login(token="EomHsawtZZcrSn7yD745.hCBYhI9aBK+qwilS+q/KXq.nbSIdOqIK+mFWdU3Xs2hVIgO2oAKffGzh/ENGuRmElU=")#3
+#k8.loginResult()
 
-k9 = LINETCR.LINE()
+#k9 = LINETCR.LINE()
 #k9.login(qr=True)
-k9.login(token="EoXKOPz0n21s8uDMuWl3.OdYm6+QTvccurtz5zba4aW.n8m/OLi0DW1oWjHicvYZV8g/j+xNpjNOeOd08QmhhGc=")#4
-k9.loginResult()
+#k9.login(token="EoXKOPz0n21s8uDMuWl3.OdYm6+QTvccurtz5zba4aW.n8m/OLi0DW1oWjHicvYZV8g/j+xNpjNOeOd08QmhhGc=")#4
+#k9.loginResult()
 
-k10 = LINETCR.LINE()
+#k10 = LINETCR.LINE()
 #k10.login(qr=True)
-k10.login(token="Eo8itLr5jD52vAD5rMe1.UR8yq6UpA/1or/jRMyEW8q.cWpCOP1YZ3lRFE8JPJ9xGRKcM2y9X4O8US7axU7GWq0=")#5
-k10.loginResult()
+#k10.login(token="Eo8itLr5jD52vAD5rMe1.UR8yq6UpA/1or/jRMyEW8q.cWpCOP1YZ3lRFE8JPJ9xGRKcM2y9X4O8US7axU7GWq0=")#5
+#k10.loginResult()
 
-k11 = LINETCR.LINE()
+#k11 = LINETCR.LINE()
 #k11.login(qr=True)
-k11.login(token="EorFLxTLrg78SfSCCsia.gJuO6JQwaodXAr6dow8AEG.aIl+ijNSCw6T7ofsDuCreXSR+yS19XbAk57mLhCWiug=")#6
-k11.loginResult()
+#k11.login(token="EorFLxTLrg78SfSCCsia.gJuO6JQwaodXAr6dow8AEG.aIl+ijNSCw6T7ofsDuCreXSR+yS19XbAk57mLhCWiug=")#6
+#k11.loginResult()
 
-k12 = LINETCR.LINE() 
+#k12 = LINETCR.LINE() 
 #k12.login(qr=True)
-k12.login(token="Eo5GP0Wg8uplhf8P4Pe0.NpBK6nc/CHkueSAzvEygua.MP59hwcHt3OOMcWa8oecCjabZZrzRGEmxGIKsVEaQUw=")#7
-k12.loginResult()
+#k12.login(token="Eo5GP0Wg8uplhf8P4Pe0.NpBK6nc/CHkueSAzvEygua.MP59hwcHt3OOMcWa8oecCjabZZrzRGEmxGIKsVEaQUw=")#7
+#k12.loginResult()
 
-k13 = LINETCR.LINE() 
+#k13 = LINETCR.LINE() 
 #k13.login(qr=True)
-k13.login(token="Eof1VW5b7dIiWlNoBZaf.HhcJ7540YTm2+i7ItHXzhW.fapTAvQAehFgleXF667iGhuz9xbYN+9hGnMr9YW9oMI=")#8
-k13.loginResult()
+#k13.login(token="Eof1VW5b7dIiWlNoBZaf.HhcJ7540YTm2+i7ItHXzhW.fapTAvQAehFgleXF667iGhuz9xbYN+9hGnMr9YW9oMI=")#8
+#k13.loginResult()
 
-k14 = LINETCR.LINE()
+#k14 = LINETCR.LINE()
 #k14.login(qr=True)
-k14.login(token="EoJUJCFJT1P9v7vIE001.71gbM/i2pqRjcurUsZQXSq.fCp1wdZL2ydEKE2hlnIpqZ9vSa/EVVJ14tp/2vPcwpw=")#9
-k14.loginResult()
+#k14.login(token="EoJUJCFJT1P9v7vIE001.71gbM/i2pqRjcurUsZQXSq.fCp1wdZL2ydEKE2hlnIpqZ9vSa/EVVJ14tp/2vPcwpw=")#9
+#k14.loginResult()
 
-k15 = LINETCR.LINE()
+#k15 = LINETCR.LINE()
 #k15.login(qr=True)
-k15.login(token="EoM1EA75PZgdYqo2zSE3.L18AnxPjsgbRF8YzF0A4OW.nrrATg62UySAUNn85t5v/eFPMLnpFiNXjVS1+5GOzPs=")#10
-k15.loginResult()
+#k15.login(token="EoM1EA75PZgdYqo2zSE3.L18AnxPjsgbRF8YzF0A4OW.nrrATg62UySAUNn85t5v/eFPMLnpFiNXjVS1+5GOzPs=")#10
+#k15.loginResult()
 
-k16 = LINETCR.LINE()
+#k16 = LINETCR.LINE()
 #k16.login(qr=True)
-k16.login(token="EoNDkVVl661o7MveqJId.uVrr3VvLWBjP+BWR+qQp7q.capIsqe80WVihoFT+HNVffd6jhkUnLuDKqklZG6ckrY=")#1
-k16.loginResult()
+#k16.login(token="EoNDkVVl661o7MveqJId.uVrr3VvLWBjP+BWR+qQp7q.capIsqe80WVihoFT+HNVffd6jhkUnLuDKqklZG6ckrY=")#1
+#k16.loginResult()
 
-k17 = LINETCR.LINE()
+#k17 = LINETCR.LINE()
 #k17.login(qr=True)
-k17.login(token="EoZtTykOtVvq4md1hLf0.50XYbzUa7LKSck7PTTWwOa.XG48HX2rDAQ1zs0nKiTmqbNTbBvdjp2YeOu6xn9KbIA=")#2
-k17.loginResult()
+#k17.login(token="EoZtTykOtVvq4md1hLf0.50XYbzUa7LKSck7PTTWwOa.XG48HX2rDAQ1zs0nKiTmqbNTbBvdjp2YeOu6xn9KbIA=")#2
+#k17.loginResult()
 
-k18 = LINETCR.LINE()
+#k18 = LINETCR.LINE()
 #k18.login(qr=True)
-k18.login(token="EobDxONqvfQiTM1eiZoa.yhTZoqDumxUp5mO/cE6owG.5R4j2lEXoLi41b+9dhpyq9qXqScMqPtMaDzKDgD4lGw=")#3
-k18.loginResult()
+#k18.login(token="EobDxONqvfQiTM1eiZoa.yhTZoqDumxUp5mO/cE6owG.5R4j2lEXoLi41b+9dhpyq9qXqScMqPtMaDzKDgD4lGw=")#3
+#k18.loginResult()
 
 #k19 = LINETCR.LINE() 
 #k19.login(qr=True)
-#k19.login(token="")#4
+#k19.login(token="EozjY8UADjOAAKYYeDU3.pY1Ri6VEvU2/Z4xKdKmpOW.IQ7v5zinIhMNj5WDcoJla28dcUoESrB/AE1lUAjeNnc=")#4
 #k19.loginResult()
 
 #k20 = LINETCR.LINE() 
@@ -132,11 +132,11 @@ k18.loginResult()
 #k20.loginResult()
 
 satpam1 = LINETCR.LINE() # 
-satpam1.login(token="Eo1EHqurQFPCdh7qiUH6.on1M6KMmxoL39eaCwBF2rG.cUoxzir2Cm5wXbs7GOly6sO8/GvqHeREGFq4ZfThOlE=")#satpam 
+satpam1.login(token="EoimpE8YMZvegNmQU7q9.kxvkFs+x3vIEAtApj0j+Iq.EtdYEapaHwwNv4S2Cj+jFZ2OTJVLr/K8U5uugfypStk=")#satpam 
 #satpam1.login(qr=True)
 satpam1.loginResult()
 
-k19 = k20 = k18
+#k19 = k20 = k18
 
 print "login success bos"
 reload(sys)
@@ -197,7 +197,7 @@ Keyowner ="""
 ╔═════════════
 ║       ✰ s̶t̶a̶r̶ b̶o̶t̶ ✰ 
 ╠═════════════
-║                    Owner : i̺͆y̺͆o̺͆😎       
+║                    Owner : i̺͆y̺͆o̺͆😎       
 ╠═════════════
 ║   ◄]·♦·Menu For Admin·♦·[►
 ║╔════════════
@@ -256,7 +256,7 @@ Setgroup ="""
 ╔═════════════
 ║       ✰ s̶t̶a̶r̶ b̶o̶t̶ ✰ 
 ╠═════════════
-║                    Owner : i̺͆y̺͆o̺͆😎       
+║                    Owner : i̺͆y̺͆o̺͆😎       
 ╠═════════════
 ║   ◄]·♦·Menu For Admin·♦·[►
 ║╔════════════
@@ -349,8 +349,10 @@ Setgroup ="""
 ║     ✰ s̶t̶a̶r̶ b̶o̶t̶ ✰
 ╚═════════════
 """
-KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k20]
-DEF=[ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k20]
+#KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20]
+KAC=[cl,ki,kk,kc,ks,ki,k2,k3,k5]
+#DEF=[ki,kk,kc,ks,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20]
+DEF=[ki,kk,kc,ks,ki,k2,k3,k5]
 kicker=[satpam1]
 mid = cl.getProfile().mid 
 Amid = ki.getProfile().mid 
@@ -360,21 +362,21 @@ Dmid = ks.getProfile().mid
 Emid = k1.getProfile().mid
 Fmid = k2.getProfile().mid
 Gmid = k3.getProfile().mid
-Hmid = k4.getProfile().mid
+#Hmid = k4.getProfile().mid
 Imid = k5.getProfile().mid
-Jmid = k6.getProfile().mid
-Kmid = k7.getProfile().mid
-Lmid = k8.getProfile().mid
-Mmid = k9.getProfile().mid
-Nmid = k10.getProfile().mid
-Omid = k11.getProfile().mid
-Pmid = k12.getProfile().mid
-Qmid = k13.getProfile().mid
-Rmid = k14.getProfile().mid
-Smid = k15.getProfile().mid
-Tmid = k16.getProfile().mid
-Umid = k17.getProfile().mid
-Vmid = k18.getProfile().mid
+#Jmid = k6.getProfile().mid
+#Kmid = k7.getProfile().mid
+#Lmid = k8.getProfile().mid
+#Mmid = k9.getProfile().mid
+#Nmid = k10.getProfile().mid
+#Omid = k11.getProfile().mid
+#Pmid = k12.getProfile().mid
+#Qmid = k13.getProfile().mid
+#Rmid = k14.getProfile().mid
+#Smid = k15.getProfile().mid
+#Tmid = k16.getProfile().mid
+#Umid = k17.getProfile().mid
+#Vmid = k18.getProfile().mid
 #Wmid = k19.getProfile().mid
 #Xmid = k20.getProfile().mid
 Smid1 = satpam1.getProfile().mid
@@ -386,11 +388,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid]
+#Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Imid,Emid,Fmid,Gmid]
 induk=[mid]
-Creator=["u5baffcc81a0a0689982216a005cfc70b","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-admin=["u5baffcc81a0a0689982216a005cfc70b","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid] #i̺͆y̺͆o̺͆😎na,i̺͆y̺͆o̺͆😎,
-owner=["u5baffcc81a0a0689982216a005cfc70b","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
+Creator=["ub7b31fa9b33f809672a40a98425f59e8","u246cb4d9c8a981d4299b7ef16cad49d9"]
+admin=["ub7b31fa9b33f809672a40a98425f59e8","u246cb4d9c8a981d4299b7ef16cad49d9",mid,Amid,Bmid,Cmid,Dmid,Imid,Emid,Fmid,Gmid]
+owner=["ub7b31fa9b33f809672a40a98425f59e8","u246cb4d9c8a981d4299b7ef16cad49d9"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -413,7 +416,7 @@ wait = {
 
 Idline: http://line.me/ti/p/VxtJPseezK""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ s̶t̶a̶r̶ b̶o̶t̶ ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««",
+    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ s̶t̶a̶r̶ b̶o̶t̶ ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -8896,7 +8899,7 @@ def bot(op):
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
-              cl.sendText(msg.to,"Itu Creator Kami Yang Manis Kalem 😜\nSmule : @FS3i_i̺͆y̺͆o̺͆😎_S1H\nNama : i̺͆y̺͆o̺͆😎\nZodiak : Cancer")  
+              cl.sendText(msg.to,"Itu Creator Kami Yang Manis Kalem 😜\nSmule : @FS3i_i̺͆y̺͆o̺͆😎_S1H\nNama : i̺͆y̺͆o̺͆😎\nZodiak : Cancer")  
       #-------------Fungsi Chat ----------------
             elif msg.text in ["Woy","woy","Woi","woi"]:
                  quote = ['Istri yang baik itu Istri yang Mengizinkan Suaminya untuk Poligami 😂😂😂.','Kunci Untuk Bikin Suami Bahagia itu cuma satu..\nIzinkan Suamimu Untuk Selingkuh Coyyy ','Ah Koplak Lu','Muka Lu Kaya Jembut','Ada Orang kah disini?','Ada Janda Yang Bisa Di Ajak Mojok Gak, Euy','Ada Perawan Nganggur ga Coy?']
@@ -9199,7 +9202,7 @@ def autolike():
       if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
         try:
           cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
           ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
@@ -9214,7 +9217,7 @@ def autolike():
           k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           k3.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
           print "Like"
         except:
           pass
@@ -9256,14 +9259,14 @@ def likePost():
                     k18.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     k19.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     k20.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ s̶t̶a̶r̶ b̶o̶t̶ ✰😊\n\n☆º°˚˚☆ s̶t̶a̶r̶ b̶o̶t̶ ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by i̺͆y̺͆o̺͆😎 ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
                     print "Like"
                 except:
                     pass
