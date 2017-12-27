@@ -1,9 +1,18 @@
 # -*- coding: utf-8 -*-
 # Tolong jangan ubah mid creator || Hargai saya
 import LINETCR
+import wikipedia
+import urllib
+import subprocess
+import profile
+import requests
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+import time,random,sys,json,codecs,threading,glob,re
+from bs4 import BeautifulSoup
+from threading import Thread
+from gtts import gTTS
+import urllib3
 
 cl = LINETCR.LINE()
 cl.login(token="EoX1uA1LEz7SMZdDaf1e.CG4Lu/FNtH1wX5D3xTPvJG.SKi5Hqy+B3zY3/muJyNZwm/+PIGLI6iLdnoeXZQyT0c=")
@@ -1444,7 +1453,7 @@ def bot(op):
 	    elif "Semula" in msg.text:
 		try:
 		    cl.updateDisplayPicture(backup.pictureStatus)
-		    cl.updateProfile(backup2)
+		    cl.updateProfile(backup)
 		    cl.sendText(msg.to, "seperti semula clear bos")
 		except Exception as e:
 		    cl.sendText(msg.to, str(e))
