@@ -1,9 +1,18 @@
 # -*- coding: utf-8 -*-
 # Tolong jangan ubah mid creator || Hargai saya
 import LINETCR
+import wikipedia
+import urllib
+import subprocess
+import profile
+import requests
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+import time,random,sys,json,codecs,threading,glob,re
+from bs4 import BeautifulSoup
+from threading import Thread
+from gtts import gTTS
+import urllib3
 
 cl = LINETCR.LINE()
 cl.login(token="EonE2Sp7cYwrFtWRYmr8.T7mFQBm+GjzYPaQyqL9z6a.oHkDkb9KMmLJzFnGn0Giobw9CPuX0D/LWXUT1dYLAR8=")
@@ -183,11 +192,11 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-contact = ki.getProfile()
-backup = ki.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki.getProfile()
+#backup = ki.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
 wait = {
     "LeaveRoom":True,
@@ -1432,22 +1441,22 @@ def bot(op):
                 wait["dblacklist"] = True
                 cl.sendText(msg.to,"send contact")
 #--------------------------------------------------------
-	    elif "Backup me" in msg.text:
-		try:
-		    cl.updateDisplayPicture(backup.pictureStatus)
-		    cl.updateProfile(backup)
-		    cl.sendText(msg.to, "Success backup profile")
-		except Exception as e:
-		    cl.sendText(msg.to, str(e))
-#--------------------------------------------------------
-#--------------------------------------------------------
 	    elif "Assist backup" in msg.text:
 		try:
 		    ki.updateDisplayPicture(backup.pictureStatus)
-		    ki.updateProfile(backup2)
+		    ki.updateProfile(backup)
 		    ki.sendText(msg.to, "Success backup profile")
 		except Exception as e:
 		    ki.sendText(msg.to, str(e))
+#--------------------------------------------------------
+#--------------------------------------------------------
+	    elif "Semula" in msg.text:
+		try:
+		    cl.updateDisplayPicture(backup.pictureStatus)
+		    cl.updateProfile(backup)
+		    cl.sendText(msg.to, "seperti semula clear bos")
+		except Exception as e:
+		    cl.sendText(msg.to, str(e))
 #--------------------------------------------------------
 #-----------------------------------------------             
             elif msg.text in ["Gcreator:inv"]:              
