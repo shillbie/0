@@ -15,11 +15,11 @@ from gtts import gTTS
 import urllib3
 
 cl = LINETCR.LINE()
-cl.login(token="EonE2Sp7cYwrFtWRYmr8.T7mFQBm+GjzYPaQyqL9z6a.oHkDkb9KMmLJzFnGn0Giobw9CPuX0D/LWXUT1dYLAR8=")
+cl.login(token="EomFnT7eUsZZkAfef4j8.T7mFQBm+GjzYPaQyqL9z6a.rLaVpmRyq8FHsov+cCr8IbWvuU8Lf/0PXgpxkjM/LeM=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="EozToVovkfQgzjDJRCLb.j0tevqX/kt6xRCOKoax7sW.P1GQ4WO/54iEn6uhvwAj4R2tjUFmWaUfYA+2Rr2tNTU")
+ki.login(token="Eo8BiOjjnZQWuq9dweR1.wOe3+tIdNxRJik2Eaf7nOq.y0EVNXK4lm5Jy5kQAH7pjGmkLW+FVjxNhrK5xaoRSg4=")
 ki.loginResult()
 
 print "===[Login Success]==="
