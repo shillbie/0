@@ -189,62 +189,21 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-wait = {    
-    'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
-≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
->>✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰<<
-
-≫ bot protect ≪
-≫ SelfBot ≪
-
-ṡȗƿƿȏяṭєԀ ɞʏ:
-  
-✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      
-
-Idline: http://line.me/ti/p/VxtJPseezK""",
-    "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««",
-    "commentOn":True,
-    "commentBlack":{},
-    "wblack":False,
-    "dblack":False,
-    "clock":False,
+wait = {
+    "LeaveRoom":True,
+    "AutoJoin":True,
+    "Members":0,
+    "AutoCancel":False,
+    "AutoKick":False,       
     "blacklist":{},
-    "whitelist":{},
     "wblacklist":False,
     "dblacklist":False,
-    "namelock":True,
-    "Backup":True,
-    "AutoKick":True,
-    "Mimic":False,
-    "pname":True,
-    "qr":False,
-    "Protectgr":False,
-    "Protectjoin":False,
-    "Protectcancl":False,
-    "protectionOn":False,
-    "Protectcancel":False,
-    "winvite":False,
-    "winvite2":False,
-    "pnharfbot":{},
-    "pname":{},
-    "pro_name":{},
-    "atjointicket":True
-    #"LeaveRoom":True,
-    #"AutoJoin":True,
-    #"Members":0,
-    #"AutoCancel":False,
-    #"AutoKick":False,       
-    #"blacklist":{},
-    #"wblacklist":False,
-    #"dblacklist":False,
-    #"Qr":True,
-    #"Timeline":True,
-    #"Contact":True,
-    #"lang":"JP",
-    #"BlGroup":{}
-}    
-
+    "Qr":True,
+    "Timeline":True,
+    "Contact":True,
+    "lang":"JP",
+    "BlGroup":{}    
+}
 
 
 def sendMessage(to, text, contentMetadata={}, contentType=0):
