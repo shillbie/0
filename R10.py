@@ -271,8 +271,8 @@ Setgroup ="""
 ║╠[•]Remove all chat
 ║╠[•]Admin add @ (by tag)
 ║╠[•]Admin remove @
-║╠[•]
-║╠[•]
+║╠[•]Abist/Greet =ratain grup
+║╠[•]Assist @
 ║╠[•]
 ║╚════════════
 ║👑Hanya Utk Owner/Admin👑
@@ -4897,7 +4897,7 @@ def bot(op):
                             pass
         #----------------Fungsi Banned Kick Target Finish----------------------#                
 
-            elif "Ready op" in msg.text:
+            elif "Abist" in msg.text:
               if msg.from_ in owner:
                 if msg.toType == 2:
                     print "ok"
