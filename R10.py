@@ -16,56 +16,56 @@ import urllib3
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="Eo8BiOjjnZQWuq9dweR1.wOe3+tIdNxRJik2Eaf7nOq.y0EVNXK4lm5Jy5kQAH7pjGmkLW+FVjxNhrK5xaoRSg4=")
+cl.login(token="Eo5PYmJGsixPuFnDyDZ3.m5X5B34I0MLNJSqaZLZ5uW.4uhIj3Oc9SckbcfwiF8UD5Tp9Z1eJs8MVmDDlStf3RI=")
 cl.loginResult()
 
 ki = LINETCR.LINE() 
 #ki.login(qr=True)
-ki.login(token="Eo3gxiQK2i5w5za8UFeb.j0tevqX/kt6xRCOKoax7sW.cysfDCXgfzonDQPOSYsBtusgtxEdIx6TAFyqeUrCrGI=")
+ki.login(token="Eoce7oh7pJ4T8FB4mVc1.wOe3+tIdNxRJik2Eaf7nOq.A+Z/Nd0SEYQ+Drv0zmB4Xvjpgl/C4WxWlWLfMC9r/E8=")
 ki.loginResult()
 
 kk = LINETCR.LINE() 
 #kk.login(qr=True)
-kk.login(token="EoG9UjVlzMdRboAEz4xc.64p7hMq5ZbXymY+T0gu3Na.J0+XUjdHiyXHhcNSO1L0KS2R75BoZRooQMTL1BL3xG4=")
+kk.login(token="Eo6REmd9I8fHvZAFcZtb.j0tevqX/kt6xRCOKoax7sW.9AO5W6naY6LaZVtSlPr8mWeH62todZj1zyEl7dxGmBo=")
 kk.loginResult()
 
 kc = LINETCR.LINE() 
 #kc.login(qr=True)
-kc.login(token="Eo9MShe58JTMIIQMVxXd.qcJOSgzQEpbuah+2LTD5Bq.RrUgO5xTsHBU2Bk7a2c+xSvAAOFjCar+Xtny+4v5B6I=")
+kc.login(token="EoC9iF7HBKFmOfLWSdic.64p7hMq5ZbXymY+T0gu3Na.+/H7uNLTiHME25jOZkkuDMkNnr1CAtcjd/RPvZ7xI4o=")
 kc.loginResult()
 
 ks = LINETCR.LINE() 
 #ks.login(qr=True)
-ks.login(token="Eo1YzwlloCeRSUtPQFxa.ofPkasavZhLKD4OwvrsSMG.p5e0cBoV4pvKCDkd5Tr8XIv+clB7fVe5y1suOMGdsfA=")#5
+ks.login(token="EonjLanzpYTXGpGJnxFd.qcJOSgzQEpbuah+2LTD5Bq.Q3lfTgEJ43I20HWVmNZYZBEU0LCxrhHOTZc6ZzekUGQ=")#5
 ks.loginResult()
 
 k1 = LINETCR.LINE() 
 #k1.login(qr=True)
-k1.login(token="EoPa5JCBYuTXTmLr8OJa.+swELSmclJDdUyMkvoatAG.WVvPMp4CfPpzFs/ph2LuCbB86bVp/o90OHcxDuB1ETY=")#6
+k1.login(token="EoCDComLd6p0bFiIG2h9.Eh+xAjKRse5Gp+veh562Mq.VLsmx4hE89BYO4cqBfmDB8YFaZcX1s5bCDlPea02RhI=")#6
 k1.loginResult()
 
 k2 = LINETCR.LINE() 
 #k2.login(qr=True)
-k2.login(token="EoCDWt0HnrTNqcS3Bm26.PARWLiQ1yX8Ge7Tqgg1FbG.SjG4HnaG4igUhBp2nIOYpBeRhMObucKnvYDIcedjce0=")#7
+k2.login(token="Eo9xhaJIzJtPiI3PN33a.ofPkasavZhLKD4OwvrsSMG.1CL9NPNgKbzwnplM8fif58AU9ApOKt5DHxn+XXjg3YE=")#7
 k2.loginResult()
 
 k3 = LINETCR.LINE() 
 #k3.login(qr=True)
-k3.login(token="EoG14rRmkr7bE37n0VI0.B7g9A1RW8NU9Ui7lAHrOWa.X3reOKRgGcEKThT7II6pEr6nt8APAXmRQB9HA1E7yko=")#8
+k3.login(token="EoNNbbtlBFvM7krWCMua.+swELSmclJDdUyMkvoatAG.Y9+/ajaOeqHPKIjqHRXbMLzXiM8YxFxrUDtCQMo31UM=")#8
 k3.loginResult()
 
 k4 = LINETCR.LINE() 
 #k4.login(qr=True)
-k4.login(token="EorFLN48FAXuXuHdPqB6.DJfCP5tT35HajOsEmvX6PG.HkhmpbRs3V+z58Ht7RIZa52gaRe9pTgDGdGyDo0pNZo=")#9
+k4.login(token="EohevCz1RtcZKkHKyQr6.PARWLiQ1yX8Ge7Tqgg1FbG.ofZARQ+0l9axZvVhMshh+vzxp66NFSNeeWGPxvosCVE=")#9
 k4.loginResult()
 
 k5 = LINETCR.LINE() 
 #k5.login(qr=True)
-k5.login(token="EouE5kQqg6VvfLXFOAfd.t9bOCFBZsWK6oxk4TD6ppq.MZiBkLJh0j0DPo/33yAt6UaD9td8XwXnCZCcZT5zBY8=")#10
+k5.login(token="Eoaqrl6AUFTMjiypF1l0.B7g9A1RW8NU9Ui7lAHrOWa.YaPUfgRKFt2sUVCLyNfBrNKbhKp8d7J2wRnbUBy+/T4=")#10
 k5.loginResult()
 
 satpam1 = LINETCR.LINE()  
-satpam1.login(token="EoEP0b2GkowIXLU76yb3.m5X5B34I0MLNJSqaZLZ5uW.GYuHnjNy7X0K+g04oQktYp7/Bz8TwuK8hI+1dvygxCE=")#11
+satpam1.login(token="EoaVU1HijCVhT8wBovq6.DJfCP5tT35HajOsEmvX6PG.ahwPnofQ2PI7JY8wD9RSMN1P7SlluFFUySfxEdkGFJg=")#11
 #satpam1.login(qr=True)
 satpam1.loginResult()
 
@@ -305,7 +305,7 @@ targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
 induk=[mid]
 Creator=["u5baffcc81a0a0689982216a005cfc70b","u246cb4d9c8a981d4299b7ef16cad49d9"]
-admin=["u5baffcc81a0a0689982216a005cfc70b","u720e2553e7e74e1d56c797775eda558e","u246cb4d9c8a981d4299b7ef16cad49d9","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u339c796f7e22d269678ec400ce5cf953","u940947814c50be1fed29c901beed59e1","u31a54e26da314829c76fa084730dae76","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #RHna,RH,
+admin=["u5baffcc81a0a0689982216a005cfc70b","u76315ca794eddf984026849e315c7aa6","u01800554d8ba8c353be01aab85de9110","ufad6050bc087e1492034e7cdfb061320","u944c5e70a6302e1a2fe0900c864691d4","u720e2553e7e74e1d56c797775eda558e","u246cb4d9c8a981d4299b7ef16cad49d9","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u339c796f7e22d269678ec400ce5cf953","u940947814c50be1fed29c901beed59e1","u31a54e26da314829c76fa084730dae76","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #RHna,RH,
 owner=["u5baffcc81a0a0689982216a005cfc70b","u720e2553e7e74e1d56c797775eda558e","u246cb4d9c8a981d4299b7ef16cad49d9","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b"]
 wait = {
     'contact':False,
