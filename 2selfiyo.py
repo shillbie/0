@@ -15,11 +15,11 @@ from gtts import gTTS
 import urllib3
 
 cl = LINETCR.LINE()
-cl.login(token="EoZgkMtEM1NtpwyVBGwb.w6+8YbOkbOMyiHAGbC+hcW.w96MLh9WaJO2Sx3f+b4KgoTFudjnbt209wNe5APQo+0=")
+cl.login(token="Eoapf2Jh0j8koyBO2z7b.w6+8YbOkbOMyiHAGbC+hcW.nv9c48oz9tDGGT8KjVVGsXI8TpJWzG+uhp42yeEN5WQ=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="Eo8BiOjjnZQWuq9dweR1.wOe3+tIdNxRJik2Eaf7nOq.y0EVNXK4lm5Jy5kQAH7pjGmkLW+FVjxNhrK5xaoRSg4=")
+ki.login(token="Eo7E9YhLYhGFwDzVXQM3.m5X5B34I0MLNJSqaZLZ5uW.DhJ3x00crFJRpX64qzQlcmz8vy8ZSo1dbSZEbU82PzI=")
 ki.loginResult()
 
 print "===[Login Success]==="
@@ -1103,10 +1103,9 @@ def bot(op):
 		print wait["AutoCancel"][msg.to]
 #--------------------------------------------------------
                 #-------------
-            elif 'music ' in msg.text.lower():
-              if msg.from_ in admin:
+            elif "Music " in msg.text:
                 try:
-                    songname = msg.text.lower().replace('music ','')
+                    songname = msg.text.lower().replace("Music ","")
                     params = {'songname': songname}
                     r = requests.get('http://ide.fdlrcn.com/workspace/yumi-apis/joox?' + urllib.urlencode(params))
                     data = r.text
@@ -1118,7 +1117,9 @@ def bot(op):
                         hasil += '\nLink Download : ' + song[4]
                         cl.sendText(msg.to, hasil)
                         cl.sendText(msg.to, "Please Wait for audio...")
-                        cl.sendAudioWithURL(msg.to, song[3])
+                        cl.sendAudioWithURL(msg.to, song[4])
+                except Exception as njer:
+                        cl.sendText(msg.to, str(njer))
 		except Exception as njer:
 		        cl.sendText(msg.to, str(njer))
 		#==================================================================
