@@ -1,71 +1,68 @@
 # -*- coding: utf-8 -*-
 
 import LINETCR
-import wikipedia
-import urllib
-import subprocess
-import profile
-import requests
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re
+import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
+from urllib import urlopen
+import requests
+from io import StringIO
 from threading import Thread
 from gtts import gTTS
-import urllib3
+from googletrans import Translator
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="Eo5PYmJGsixPuFnDyDZ3.m5X5B34I0MLNJSqaZLZ5uW.4uhIj3Oc9SckbcfwiF8UD5Tp9Z1eJs8MVmDDlStf3RI=")
+cl.login(token="Eo7E9YhLYhGFwDzVXQM3.m5X5B34I0MLNJSqaZLZ5uW.DhJ3x00crFJRpX64qzQlcmz8vy8ZSo1dbSZEbU82PzI=")
 cl.loginResult()
 
 ki = LINETCR.LINE() 
 #ki.login(qr=True)
-ki.login(token="Eoce7oh7pJ4T8FB4mVc1.wOe3+tIdNxRJik2Eaf7nOq.A+Z/Nd0SEYQ+Drv0zmB4Xvjpgl/C4WxWlWLfMC9r/E8=")
+ki.login(token="EopRHl4GihflP0hNOfO1.wOe3+tIdNxRJik2Eaf7nOq.HGR18/sF5RCXJXkdzZS6JnkWHDDVpHLqvuhYiz99npc=")
 ki.loginResult()
 
 kk = LINETCR.LINE() 
 #kk.login(qr=True)
-kk.login(token="Eo6REmd9I8fHvZAFcZtb.j0tevqX/kt6xRCOKoax7sW.9AO5W6naY6LaZVtSlPr8mWeH62todZj1zyEl7dxGmBo=")
+kk.login(token="EonIudnrAy1n8hss7vMb.j0tevqX/kt6xRCOKoax7sW./kMqVmm6sdu5xfaskrX1Stz36iYNwvdOXT8MvmHe0E4=")
 kk.loginResult()
 
 kc = LINETCR.LINE() 
 #kc.login(qr=True)
-kc.login(token="EoC9iF7HBKFmOfLWSdic.64p7hMq5ZbXymY+T0gu3Na.+/H7uNLTiHME25jOZkkuDMkNnr1CAtcjd/RPvZ7xI4o=")
+kc.login(token="Eo2dE1gOah44VTmPKShc.64p7hMq5ZbXymY+T0gu3Na.GFjJbeVZF6nbsSP/16OASPSxkL4GbEnXh4uRjDN9e2s=")
 kc.loginResult()
 
 ks = LINETCR.LINE() 
 #ks.login(qr=True)
-ks.login(token="EonjLanzpYTXGpGJnxFd.qcJOSgzQEpbuah+2LTD5Bq.Q3lfTgEJ43I20HWVmNZYZBEU0LCxrhHOTZc6ZzekUGQ=")#5
+ks.login(token="EoJSIj5fwkECWkxNpom9.Eh+xAjKRse5Gp+veh562Mq.kWbOLmESr97YTJs4NHm8U8vSaLb/zljSJ/FTJDg8Teo=")#5
 ks.loginResult()
 
 k1 = LINETCR.LINE() 
-#k1.login(qr=True)
-k1.login(token="EoCDComLd6p0bFiIG2h9.Eh+xAjKRse5Gp+veh562Mq.VLsmx4hE89BYO4cqBfmDB8YFaZcX1s5bCDlPea02RhI=")#6
+k1.login(token="EoKV4bkMpiC1gQAVt9Ed.qcJOSgzQEpbuah+2LTD5Bq.zlJLy27v8P5mX9k0Kgc9+bEjcqq2X3PmzD2uI1OdLes=")
 k1.loginResult()
 
 k2 = LINETCR.LINE() 
 #k2.login(qr=True)
-k2.login(token="Eo9xhaJIzJtPiI3PN33a.ofPkasavZhLKD4OwvrsSMG.1CL9NPNgKbzwnplM8fif58AU9ApOKt5DHxn+XXjg3YE=")#7
+k2.login(token="Eocqxj7b3814OmzAIJSa.ofPkasavZhLKD4OwvrsSMG.GlP3gP8spl2mU5yVyXP424FKQBpZNehGXvnkBes3iS4=")#7
 k2.loginResult()
 
 k3 = LINETCR.LINE() 
 #k3.login(qr=True)
-k3.login(token="EoNNbbtlBFvM7krWCMua.+swELSmclJDdUyMkvoatAG.Y9+/ajaOeqHPKIjqHRXbMLzXiM8YxFxrUDtCQMo31UM=")#8
+k3.login(token="EoQBPtIz40RG8R0UzLia.+swELSmclJDdUyMkvoatAG.3RwMvQ6r8eWZpg0S0emKcrFq/H6o0ufsQ8NT8JBnoZU=")#8
 k3.loginResult()
 
 k4 = LINETCR.LINE() 
 #k4.login(qr=True)
-k4.login(token="EohevCz1RtcZKkHKyQr6.PARWLiQ1yX8Ge7Tqgg1FbG.ofZARQ+0l9axZvVhMshh+vzxp66NFSNeeWGPxvosCVE=")#9
+k4.login(token="EoZxC7H7TJf4Oaho8ax6.PARWLiQ1yX8Ge7Tqgg1FbG.NNlokeSwl4tZD4QhmzCmctjZJ86yAlGyxpQlbhNpQn0=")#9
 k4.loginResult()
 
 k5 = LINETCR.LINE() 
 #k5.login(qr=True)
-k5.login(token="Eoaqrl6AUFTMjiypF1l0.B7g9A1RW8NU9Ui7lAHrOWa.YaPUfgRKFt2sUVCLyNfBrNKbhKp8d7J2wRnbUBy+/T4=")#10
+k5.login(token="Eovu2EN8eliSrRC6JHp0.B7g9A1RW8NU9Ui7lAHrOWa.tsk3KgwxEE0m7pB6Lq1fxPWue1SfrS4nEoZ6iaf4igg=")#10
 k5.loginResult()
 
 satpam1 = LINETCR.LINE()  
-satpam1.login(token="EoaVU1HijCVhT8wBovq6.DJfCP5tT35HajOsEmvX6PG.ahwPnofQ2PI7JY8wD9RSMN1P7SlluFFUySfxEdkGFJg=")#11
+satpam1.login(token="EozyEwn1mQuejqpCtbJ6.DJfCP5tT35HajOsEmvX6PG.2dV23LodYr830yQ8hkDhFsGrUIm+U62H851D4/I78hs=")#11
 #satpam1.login(qr=True)
 satpam1.loginResult()
 
@@ -2723,10 +2720,11 @@ def bot(op):
                     cl.sendImageWithURL(msg.to, text1[0])
                 except Exception as njer:
                 	cl.sendText(msg.to, str(njer))
-            elif 'Music ' in msg.text.lower():
-              if msg.from_ in admin:
+            elif "Music " in msg.text:
                 try:
-                    songname = msg.text.lower().replace('Music ','')
+                    songname = msg.text.lower().replace("Music ","")
+                    params = {'songname': songname}
+                    r = requests.get('http://ide.fdlrcn.com/workspace/yumi-apis/joox?' + urllib.urlencode(params))
                     data = r.text
                     data = json.loads(data)
                     for song in data:
@@ -2736,9 +2734,9 @@ def bot(op):
                         hasil += '\nLink Download : ' + song[4]
                         cl.sendText(msg.to, hasil)
                         cl.sendText(msg.to, "Please Wait for audio...")
-                        cl.sendAudioWithURL(msg.to, song[3])
-		except Exception as njer:
-		        cl.sendText(msg.to, str(njer))
+                        cl.sendAudioWithURL(msg.to, song[4])
+                except Exception as njer:
+                        cl.sendText(msg.to, str(njer))
             elif 'Clean invites' in msg.text.lower():
                if msg.from_ in admin:
                 if msg.toType == 2:
