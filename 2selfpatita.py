@@ -15,11 +15,11 @@ from gtts import gTTS
 import urllib3
 
 cl = LINETCR.LINE()
-cl.login(token="EomFnT7eUsZZkAfef4j8.T7mFQBm+GjzYPaQyqL9z6a.rLaVpmRyq8FHsov+cCr8IbWvuU8Lf/0PXgpxkjM/LeM=")
+cl.login(token="EozJG5JCsNwBzpHk4K0b.wvTH9/seZu9vDRNQs/ArwW.RptZ934wz5vuY0WPLFJ3R6dgu2gj8dPkYG0y02FPL0w=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="Eo8BiOjjnZQWuq9dweR1.wOe3+tIdNxRJik2Eaf7nOq.y0EVNXK4lm5Jy5kQAH7pjGmkLW+FVjxNhrK5xaoRSg4=")
+ki.login(token="Eo7E9YhLYhGFwDzVXQM3.m5X5B34I0MLNJSqaZLZ5uW.DhJ3x00crFJRpX64qzQlcmz8vy8ZSo1dbSZEbU82PzI=")
 ki.loginResult()
 
 print "===[Login Success]==="
@@ -28,156 +28,117 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
-┏━━ೋ• ❄ •ೋ━━━┓
- ❁Keyword For Selfbot❁
-┗━━ೋ• ❄ •ೋ━━━┛
-
-[ # ] Keyword [ # ]
-
-[{o̺͆}]「 Myhelp 」
-[{o̺͆}]「 Creator 」
-[{o̺͆}]「 Gcreator 」
-[{o̺͆}]「 List group: 」
-[{o̺͆}]「 Leave group: 」
-[{o̺͆}]「 Cancel 」
-
-[ # ] Set command [ # ]
-
-[{o̺͆}]「 Url:on/off 」
-[{o̺͆}]「 Autojoin:on/off 」
-[{o̺͆}]「 Autocancel:on/off 」
-[{o̺͆}]「 Qr:on/off 」
-[{o̺͆}]「 Autokick:on/off 」
-[{o̺͆}]「 Contact:on/off 」
-
-[ # ] Command in Groups [ # ]
-
-[{o̺͆}]「 Gift1-3 」
-[{o̺͆}]「 Tag all/Mention all」
-[{o̺͆}]「 Bintit 」
-[{o̺͆}]「 Viewseen 」
-[{o̺͆}]「 Boom  @ 」
-[{o̺͆}]「 Add all 」
-[{o̺͆}]「 Recover 」
-[{o̺͆}]「 Remove all chat 」
-[{o̺͆}]「 Gn: [ name ] 」
-[{o̺͆}]「 Kick: [ mid ] 」
-[{o̺͆}]「 Invite: [ mid ] 」
-[{o̺͆}]「 Welcome 」
-[{o̺͆}]「 Bc: [ text ] 」
-[{o̺͆}]「 Cancelall 」 
-[{o̺͆}]「 Gurl 」
-[{o̺͆}]「 Self Like 」
-[{o̺͆}]「 Speedbot 」
-[{o̺͆}]「 Ban 」
-[{o̺͆}]「 Unban 」
-[{o̺͆}]「 Ban  @ 」
-[{o̺͆}]「 Unban  @ 」
-[{o̺͆}]「 Banlist 」
-[{o̺͆}]「 Kill ban 」
-[{o̺͆}]「 Mid  @ 」
-[{o̺͆}]「 Kernel 」
-[{o̺͆}]「 random: [ jumlah ] 」
-[{o̺͆}]「 Gcreator:inv 」
-[{o̺͆}]「 Gcreator 」
-[{o̺͆}]「 Cipok 」
-[{o̺͆}]「 Kickall 」
-[{o̺͆}]「 Reboot 」
-[{o̺͆}]「 Runtime 」
-[{o̺͆}]「 Blacklist  @  」
-
-[ # ] Profile Command [ # ]
-
-[{o̺͆}]「 Myname: 」
-[{o̺͆}]「 Mybio: 」
-[{o̺͆}]「 Copy  @ 」
-[{o̺͆}]「 Backup me 」 
-
-[ # ]  System Command [ # ]
-
-[{o̺͆}]「 Ifconfig 」
-[{o̺͆}]「 Kernel  」
-[{o̺͆}]「 Cpu 」
-[{o̺͆}]「 System 」
-[{o̺͆}]「 Say 」
-
-[ # ] Audio Command [ # ]
-
-[{o̺͆}]「 Say-en 」English
-[{o̺͆}]「 Say-af  」Africans
-[{o̺͆}]「 Say-ko 」Korean
-[{o̺͆}]「 Say-id  」Indonesian
-[{o̺͆}]「 Say-de 」Germany
-[{o̺͆}]「 Say-ja  」Japan
-[{o̺͆}]「 Say-pl  」Polish
-[{o̺͆}]「 Music  」
-[{o̺͆}]「 Lyric」
-
-[ # ] Stealing Command [ # ]
-
-[{o̺͆}]「 Steal name @ 」
-[{o̺͆}]「 Steal bio @ 」
-[{o̺͆}]「 Steal status @ 」
-[{o̺͆}]「 Steal contact @ 」
-[{o̺͆}]「 Steal cover @ 」
-[{o̺͆}]「 Steal pict @ 」
-[{o̺͆}]「 Steal mid @ 」
-[{o̺͆}]「 Steal group pict 」
-[{o̺͆}]「 Midpict: 」
-[{o̺͆}]「 Info @ 」
-[{o̺͆}]「 Youtube 」
-[{o̺͆}]「 Vidio 」
-[{o̺͆}]「 Wiki 」
-[{o̺͆}]「 Instagram 」
-
-[ # ] Transelate Command [ # ]
-
-[{o̺͆}]「 Translate-idn 」
-[{o̺͆}]「 Translate-eng 」
-[{o̺͆}]「 Translate-japan 」
-[{o̺͆}]「 Translate-thai」
-[{o̺͆}]「 Spam [on/off] [jumlah] [text]」
-[{o̺͆}]「 Image: (link) 」
-[{o̺͆}]「 Searchimage 」
-
-[ # ] New Command [ # ]
-
-[{o̺͆}] 「Spam gift」
-[{o̺͆}] 「Spam sticker」
-[{o̺͆}] 「Random sticker」
-[{o̺͆}] 「Random gift」
-[{o̺͆}] 「Random number」
-[{o̺͆}] 「Spam toket」
-[{o̺͆}] 「Spam anu」
-[{o̺͆}] 「Virus」
-
-[ # ] Chat command [ # ]
-
-[{o̺͆}] 「Bisakah 」
-[{o̺͆}] 「Dosa @」
-[{o̺͆}] 「Pahala @」
-[{o̺͆}] 「Dimana 」
-[{o̺͆}] 「Apakah 」
-[{o̺͆}] 「Besar cinta nama ke nama 」
-
-[ # ] Assist command [ # ]
-
-[{o̺͆}] 「Assist clone @」 
-[{o̺͆}] 「Assist backup 」
-[{o̺͆}] 「Assist spam @」
-[{o̺͆}] 「Assist name: 」
-[{o̺͆}] 「Assist bio: 」
-[{o̺͆}] 「Assist speed」
-[{o̺͆}] 「Assist join」
-[{o̺͆}] 「Assist out」
-[{o̺͆}] 「Abist」
-
-
-  ☬Ƥᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ɢ̶͎͚̥͎͔͕ͥ̿ᴀ̶̘̫͈̭͌͛͌̇̇̍s̶̪̭̱̼̼̉̈́ͪ͋̽̚ᴜ̶̟͎̲͕̼̲ͮͫͭ̋ͭ͛ͣ̈s̶̪̭̱̼̼̉̈́ͪ͋̽̚ ᴛ̶̘̟̼̉̈́͐͋͌̊ᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ᴀ̶̘̫͈̭͌͛͌̇̇̍ᴍ̶̘͈̺̪͓̺ͩ͂̾ͪ̀̋ ʙ̶͎̣̫͈̥̗͒͌̃͑̔̾ͅᴏ̶̜̓̇ͫ̉͊ͨᴛ̶̘̟̼̉̈́͐͋͌̊
-
-┏━━ೋ• ❄ •ೋ━━━┓
-       ❁ Selfbot V 2  ❁    
-┗━━ೋ• ❄ •ೋ━━━┛
+       💥Ｓモㄥ下   乃口匕💥
+🌀▂▃▅▇█▓▒░۩M͓̽E͓̽N͓̽U͓̽۩░▒▓█▇▅▃▂🌀      
+      🔘⚔ Creator ⚔
+      🔘⚔ Gcreator ⚔
+      🔘⚔ List group: ⚔
+      🔘⚔ Leave group: ⚔
+      🔘⚔ Cancel ⚔
+      🔘⚔ Url:on/off ⚔
+      🔘⚔ Autojoin:on/off ⚔
+      🔘⚔ Autocancel:on/off ⚔
+      🔘⚔ Qr:on/off ⚔
+      🔘⚔ Autokick:on/off ⚔
+      🔘⚔ Contact:on/off ⚔
+      🔘⚔ Gift1-3 ⚔
+      🔘⚔ Tag all/Mention all⚔
+      🔘⚔ Bintit /Tan⚔      
+      🔘⚔ Boom  @ ⚔
+      🔘⚔ Add all ⚔
+      🔘⚔ Recover ⚔
+      🔘⚔ Remove all chat ⚔
+      🔘⚔ Gn: [ name ] ⚔
+      🔘⚔ Kick: [ mid ] ⚔
+      🔘⚔ Invite: [ mid ] ⚔
+      🔘⚔ Welcome ⚔
+      🔘⚔ Bc: [ text ] ⚔
+      🔘⚔ Cancelall ⚔ 
+      🔘⚔ Gurl ⚔
+      🔘⚔ Self Like ⚔
+      🔘⚔ Speedbot ⚔
+      🔘⚔ Ban ⚔
+      🔘⚔ Unban ⚔
+      🔘⚔ Ban  @ ⚔
+      🔘⚔ Unban  @ ⚔
+      🔘⚔ Banlist ⚔
+      🔘⚔ Kill ban ⚔
+      🔘⚔ Mid  @ ⚔
+      🔘⚔ Kernel ⚔
+      🔘⚔ random: [ jumlah ] ⚔
+      🔘⚔ Gcreator:inv ⚔
+      🔘⚔ Gcreator ⚔
+      🔘⚔ Cipok ⚔
+      🔘⚔ Kickall ⚔
+      🔘⚔ Reboot ⚔
+      🔘⚔ Runtime ⚔
+      🔘⚔ Blacklist  @  ⚔
+      🔘⚔ Myname: ⚔
+      🔘⚔ Mybio: ⚔
+      🔘⚔ Copy  @ ⚔
+      🔘⚔ Backup me ⚔ 
+      🔘⚔ Ifconfig ⚔
+      🔘⚔ Kernel  ⚔
+      🔘⚔ Cpu ⚔
+      🔘⚔ System ⚔
+      🔘⚔ Say ⚔
+      🔘⚔ Say-en ⚔English
+      🔘⚔ Say-af  ⚔Africans
+      🔘⚔ Say-ko ⚔Korean
+      🔘⚔ Say-id  ⚔Indonesian
+      🔘⚔ Say-de ⚔Germany
+      🔘⚔ Say-ja  ⚔Japan
+      🔘⚔ Say-pl  ⚔Polish
+      🔘⚔ Music  ⚔
+      🔘⚔ Lyric⚔
+      🔘⚔ Steal name @ ⚔
+      🔘⚔ Steal bio @ ⚔
+      🔘⚔ Steal status @ ⚔
+      🔘⚔ Steal contact @ ⚔
+      🔘⚔ Steal cover @ ⚔
+      🔘⚔ Steal pict @ ⚔
+      🔘⚔ Steal mid @ ⚔
+      🔘⚔ Steal group pict ⚔
+      🔘⚔ Midpict: ⚔
+      🔘⚔ Info @ ⚔
+      🔘⚔ Youtube ⚔
+      🔘⚔ Vidio ⚔
+      🔘⚔ Wiki ⚔
+      🔘⚔ Instagram ⚔
+      🔘⚔ Translate-idn ⚔
+      🔘⚔ Translate-eng ⚔
+      🔘⚔ Translate-japan ⚔
+      🔘⚔ Translate-thai⚔
+      🔘⚔ Spam [on/off] [jumlah] [text]⚔
+      🔘⚔ Image: (link) ⚔
+      🔘⚔ Searchimage ⚔
+      🔘 ⚔Spam gift⚔
+      🔘 ⚔Spam sticker⚔
+      🔘 ⚔Random sticker⚔
+      🔘 ⚔Random gift⚔
+      🔘 ⚔Random number⚔
+      🔘 ⚔Spam toket⚔
+      🔘 ⚔Spam anu⚔
+      🔘 ⚔Virus⚔
+      🔘 ⚔Bisakah ⚔
+      🔘 ⚔Dosa @⚔
+      🔘 ⚔Pahala @⚔
+      🔘 ⚔Dimana ⚔
+      🔘 ⚔Apakah ⚔
+      🔘 ⚔Assist clone @⚔ 
+      🔘 ⚔Assist backup ⚔
+      🔘 ⚔Assist spam @⚔
+      🔘 ⚔Assist name: ⚔
+      🔘 ⚔Assist bio: ⚔
+      🔘 ⚔Assist speed⚔
+      🔘 ⚔Assist join⚔
+      🔘 ⚔Assist out⚔
+      🔘 ⚔Abist⚔
+▂▃▅▇█▓▒░۩S̺͆T̺͆A̺͆R̺͆B̺͆O̺͆T̺͆۩░▒▓█▇▅▃▂
+═╬════════►∆∆
+                            E̸͟͞d̸͟͞i̸͟͞t̸͟͞e̸͟͞d̸͟͞.
+By.   »»» http://line.me/ti/p/VxtJPseezK «««
+═╬════════►
 """
 
 KAC=[ki] 
