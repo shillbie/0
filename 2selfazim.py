@@ -1,25 +1,23 @@
 # -*- coding: utf-8 -*-
 # Tolong jangan ubah mid creator || Hargai saya
 import LINETCR
-import wikipedia
-import urllib
-import subprocess
-import profile
-import requests
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re
+import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
+from urllib import urlopen
+import requests
+from io import StringIO
 from threading import Thread
 from gtts import gTTS
-import urllib3
+from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="EoOxi7yJFckyBuWuiBD9.jgY02CIPGDqPM37XBk1j2q.BxgeGguHKjINqWf1IgLNQwY/XlsvFZRwXu9NL+QU+pM=")
+cl.login(token="EoR5c7LfIVB3DHovicY9.jgY02CIPGDqPM37XBk1j2q.Xv78fS9CrAp0gBHZr0YUkwlcYfSpRzLoGu4npg1tZhw=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="Eo7E9YhLYhGFwDzVXQM3.m5X5B34I0MLNJSqaZLZ5uW.DhJ3x00crFJRpX64qzQlcmz8vy8ZSo1dbSZEbU82PzI=")
+ki.login(token="EoMdyirKky4RCTtfLG63.m5X5B34I0MLNJSqaZLZ5uW.O5TakOef9apk7z21AA3jD3e8GT8qBzDjKN2dscBk094=")
 ki.loginResult()
 
 print "===[Login Success]==="
