@@ -11,7 +11,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 from bs4 import BeautifulSoup
 from threading import Thread
-from gtts import gTTS
+#from gtts import gTTS
 import urllib3
 
 cl = LINETCR.LINE()
