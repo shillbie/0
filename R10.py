@@ -14,56 +14,55 @@ from googletrans import Translator
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="EopQLp2TOHZK5WnAHBXd.t9bOCFBZsWK6oxk4TD6ppq.p08XnEOdqaYL/p2nmOe62vcDPxW1CRDGlvK4qb77Jk0=")
+cl.login(token="EosSJtJJSf8LnoMSjYTe.xPOspEu0Pig/LQV304i/JG.MIgnlGfCD8bqQo3FekapxgLz8S2itvvSXzDqu4b15F0=")
 cl.loginResult()
 
 ki = LINETCR.LINE() 
 #ki.login(qr=True)
-ki.login(token="EoARmmuN1JLSlobKIQ56.DJfCP5tT35HajOsEmvX6PG.iVv5WH9WAcglI/AF24aeluFlA8pgDZ3vOLtxJ7+Q+fQ=")
+ki.login(token="EoPePS1mhghZGThSHnT1.wOe3+tIdNxRJik2Eaf7nOq.J+uFDqwHq7fZMQ6PZHpDFMdcAcym7XXboMkD1o3TFhQ=")
 ki.loginResult()
 
 kk = LINETCR.LINE() 
 #kk.login(qr=True)
-kk.login(token="EoOsT5Im3aeaenoz9oe0.B7g9A1RW8NU9Ui7lAHrOWa.1bdVE33FUwUzYZqSDWE+0npwYTL4YgY0YMAXi1R7jYg=")
+kk.login(token="Eoz62UMShUxf2otTu99b.j0tevqX/kt6xRCOKoax7sW./OL/1CtGbSTv5J/rouSXeh31uwzD+B4VoYbYIAkP+6Y=")
 kk.loginResult()
 
 kc = LINETCR.LINE() 
 #kc.login(qr=True)
-kc.login(token="EoikgJu3oO80UcYObef6.PARWLiQ1yX8Ge7Tqgg1FbG.hSFsmHgX1HKZHXToTk2pNcPeuer+xOL2OLQsCQD9YR4=")
+kc.login(token="Eo5ayIsDqfRmTDd7F8Nc.64p7hMq5ZbXymY+T0gu3Na.P7Sivqrd+CYy3nkGy0qNhjIMF6a90h0Ox/Tfz5CWMU8=")
 kc.loginResult()
 
 ks = LINETCR.LINE() 
 #ks.login(qr=True)
-ks.login(token="EojEE7DCamfJbnqxMXca.+swELSmclJDdUyMkvoatAG.w8W0+mGyAPY42as6VoTL6W3oMpto1uOmaY8gBtvjpn8=")#5
+ks.login(token="EoXLGChcksJ7ltYDq7p9.Eh+xAjKRse5Gp+veh562Mq.IqodI06UayYyWiYXXnU+3dxv4qiCkVh4+8w/LiPq6gA=")#5
 ks.loginResult()
 
-k1 = LINETCR.LINE() 
-#k1.login(qr=True)
-k1.login(token="EogMbf7aoMYOIHcjUxoa.ofPkasavZhLKD4OwvrsSMG.vdO18fDElP0YW9/56uUuDWOj53FgTcfKOeu4J6TX0eQ=")#6
+k1 = LINETCR.LINE()
+k1.login(token="Eo4TXuob2iM2mIK1WiMa.ofPkasavZhLKD4OwvrsSMG.6ejB3DCxw8Z2ewnMV80vWmzAbdlitsF9j0iukT8tvN4=")
 k1.loginResult()
 
 k2 = LINETCR.LINE() 
 #k2.login(qr=True)
-k2.login(token="EoRnVHEm7Qx6szji9mC9.Eh+xAjKRse5Gp+veh562Mq.BaM+/eO/u5S2DMCfGoLlyYJTxTZxJw6VPfeNfjjK+2s=")#7
+k2.login(token="EoTaSclaSgm7bZ0lqida.+swELSmclJDdUyMkvoatAG.iPVYTfsBGhB0o2ETPn19K/L/eUWKHGfFdiahhGy7fto=")#7
 k2.loginResult()
 
 k3 = LINETCR.LINE() 
 #k3.login(qr=True)
-k3.login(token="EolIkRnKspnErrctEOad.qcJOSgzQEpbuah+2LTD5Bq.2LPSqzMhmtKE/79QAOAKFq1kcBovX/fSYwhGjqohGQk=")#8
+k3.login(token="EoLnRfsdvumhYw6BY8jd.t9bOCFBZsWK6oxk4TD6ppq.zxf6Gc4BJ33oMoITKIchUn7Y/H0x9wT2/jIesfAkURI=")#8
 k3.loginResult()
 
 k4 = LINETCR.LINE() 
 #k4.login(qr=True)
-k4.login(token="EoFdasaFX7IskJMeUx9c.64p7hMq5ZbXymY+T0gu3Na.4ysgO9fPsGV4wPh0RpxO7J5ugKNjqCuPWdHD1jxgzGs=")#9
+k4.login(token="EolFX46TjFnyR1Z3ulJ6.PARWLiQ1yX8Ge7Tqgg1FbG.ZdyicIZFoImutvcoUqgGMc76o3doGjdPC3SA+mfB7vM=")#9
 k4.loginResult()
 
 k5 = LINETCR.LINE() 
 #k5.login(qr=True)
-k5.login(token="EozunpB0lDmk9xgTpZrb.j0tevqX/kt6xRCOKoax7sW.JTXjm0hTHZyPV2H08hd9i5MAIbKgIT+pd84Gf9+eXFI=")#10
+k5.login(token="EoCkmn29XQ8SThzSYPt0.B7g9A1RW8NU9Ui7lAHrOWa.xoNtIvSRW1Foe/CWG5pY07WajPd+xZ9P8L+8ijEO3Uo=")#10
 k5.loginResult()
 
 satpam1 = LINETCR.LINE()  
-satpam1.login(token="EoGsXFRxjxlKq16ydcG3.m5X5B34I0MLNJSqaZLZ5uW.BiYMEN+pGTbpSK00B3IwWOBZ79jBVLo4l2UrhaN8UK4=")#11
+satpam1.login(token="Eo3xa4Q3k2Z7Sez1hex6.DJfCP5tT35HajOsEmvX6PG.nUVEx8vswL5hCJKk/1XJIXO7xrMuEegkFTDC1c8uRGY=")#11
 #satpam1.login(qr=True)
 satpam1.loginResult()
 
