@@ -13,7 +13,7 @@ from threading import Thread
 from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="Eol8Fn5SJx40F4vjoE3b.w6+8YbOkbOMyiHAGbC+hcW.AHuKOZ2uBpv8LvrpfAvik9NIueKcs1Ri5sKlL/V3m4I=")
+cl.login(token="Eo9FIOMpDW2ajNLXJzvb.w6+8YbOkbOMyiHAGbC+hcW.+cg2i+bnzkLG0nq0zFsYGwxSdoK3K/Pfyq0DZNj4BDk=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
