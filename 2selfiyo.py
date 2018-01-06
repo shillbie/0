@@ -17,7 +17,7 @@ cl.login(token="Eo9FIOMpDW2ajNLXJzvb.w6+8YbOkbOMyiHAGbC+hcW.+cg2i+bnzkLG0nq0zFsY
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="EoGDPxGabDZweFWuogte.xPOspEu0Pig/LQV304i/JG.9zD9oKDFYQ9Pn+4XzmYqO7R3/Zl+NX0dxB8x3swgR1o=")
+ki.login(token="Eo45jLYHE6nHXz3NT3Ad.qcJOSgzQEpbuah+2LTD5Bq.dFnOMmTxdMFrTG47zWH9ABYIUdPw1RKgtLGNU4PuGUk=")
 ki.loginResult()
 
 print "===[Login Success]==="
