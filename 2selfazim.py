@@ -13,11 +13,11 @@ from threading import Thread
 from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="EoWiJe0jyzqUa6WQp7R9.jgY02CIPGDqPM37XBk1j2q.EEACAg8Tkho3F3tBTQ+A0P96ibQ2da26ThXZiFMhOXk=")
+cl.login(token="EoZB3dCWdD2CEqkbnly9.jgY02CIPGDqPM37XBk1j2q.SxYrpahZ3Ihrv2fjUrQkSUpfVaqkVJQt+tAgmT0+SA8=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="EosSJtJJSf8LnoMSjYTe.xPOspEu0Pig/LQV304i/JG.MIgnlGfCD8bqQo3FekapxgLz8S2itvvSXzDqu4b15F0=")
+ki.login(token="Eo45jLYHE6nHXz3NT3Ad.qcJOSgzQEpbuah+2LTD5Bq.dFnOMmTxdMFrTG47zWH9ABYIUdPw1RKgtLGNU4PuGUk=")
 ki.loginResult()
 
 print "===[Login Success]==="
