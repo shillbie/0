@@ -10,7 +10,7 @@ from urllib import urlopen
 import requests
 from io import StringIO
 from threading import Thread
-from gtts import gTTS
+#from gtts import gTTS
 from googletrans import Translator
 
 cl = LINETCR.LINE()
