@@ -14,7 +14,7 @@ from googletrans import Translator
 
 cl = LINETCR.LINE() 
 #cl.login(qr=True)
-cl.login(token="EoGDPxGabDZweFWuogte.xPOspEu0Pig/LQV304i/JG.9zD9oKDFYQ9Pn+4XzmYqO7R3/Zl+NX0dxB8x3swgR1o=")
+cl.login(token="Eo45jLYHE6nHXz3NT3Ad.qcJOSgzQEpbuah+2LTD5Bq.dFnOMmTxdMFrTG47zWH9ABYIUdPw1RKgtLGNU4PuGUk=")
 cl.loginResult()
 
 ki = LINETCR.LINE() 
