@@ -3,10 +3,17 @@
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
+from bs4 import BeautifulSoup
+from urllib import urlopen
+import requests
+from io import StringIO
+from threading import Thread
+from gtts import gTTS
+from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="EoTrBrxf7m1OMeQ1gk5f.Y1+Nv0VM7K2R4vRai1IQJW.C8/LqaCWgypItel3zZ+iOp+FzDV0xleYtzke/TJGyyI=")
+cl.login(token="EoNd8YEYsZNuFNIeVRJ0.F4TGaftJCWVH+qiLum3X4a.bqE2aZemVcvFfuvvCJJXOW36IWigUWyWOFwAEySUy/o=")
 cl.loginResult()
 
 print "===[Login Success]==="
@@ -15,156 +22,123 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
-┏━━ೋ• ❄ •ೋ━━━┓
- ❁Keyword For Selfbot❁
-┗━━ೋ• ❄ •ೋ━━━┛
-
-[ # ] Keyword [ # ]
-
-♬「 Myhelp 」
-♬「 Creator 」
-♬「 Gcreator 」
-♬「 List group: 」
-♬「 Leave group: 」
-♬「 Cancel 」
-
-[ # ] Set command [ # ]
-
-♬「 Url:on/off 」
-♬「 Autojoin:on/off 」
-♬「 Autocancel:on/off 」
-♬「 Qr:on/off 」
-♬「 Autokick:on/off 」
-♬「 Contact:on/off 」
-
-[ # ] Command in Groups [ # ]
-
-♬「 Gift1-3 」
-♬「 Tag all/Mention all」
-♬「 Cctv 」
-♬「 Seen 」
-♬「 Boom  @ 」
-♬「 Add all 」
-♬「 Recover 」
-♬「 Remove all chat 」
-♬「 Gn: [ name ] 」
-♬「 Kick: [ mid ] 」
-♬「 Invite: [ mid ] 」
-♬「 Welcome 」
-♬「 Bc: [ text ] 」
-♬「 Cancelall 」 
-♬「 Gurl 」
-♬「 Self Like 」
-♬「 Speedbot 」
-♬「 Ban 」
-♬「 Unban 」
-♬「 Ban  @ 」
-♬「 Unban  @ 」
-♬「 Banlist 」
-♬「 Kill ban 」
-♬「 Mid  @ 」
-♬「 Kernel 」
-♬「 random: [ jumlah ] 」
-♬「 Gcreator:inv 」
-♬「 Gcreator 」
-♬「 Cipok 」
-♬「 Kickall 」
-♬「 Reboot 」
-♬「 Runtime 」
-♬「 Blacklist  @  」
-
-[ # ] Profile Command [ # ]
-
-♬「 Myname: 」
-♬「                 」
-♬「 Copy  @ 」
-♬「 Backup me 」 
-
-[ # ]  System Command [ # ]
-
-♬「 Ifconfig 」
-♬「 Kernel  」
-♬「 Cpu 」
-♬「 System 」
-♬「 Say 」
-
-[ # ] Audio Command [ # ]
-
-♬「 Say-en 」English
-♬「 Say-af  」Africans
-♬「 Say-ko 」Korean
-♬「 Say-id  」Indonesian
-♬「 Say-de 」Germany
-♬「 Say-ja  」Japan
-♬「 Say-pl  」Polish
-♬「 Music  」
-♬「 Lyric」
-
-[ # ] Stealing Command [ # ]
-
-♬「 Steal name @ 」
-♬「 Steal bio @ 」
-♬「 Steal status @ 」
-♬「 Steal contact @ 」
-♬「 Steal cover @ 」
-♬「 Steal pict @ 」
-♬「 Steal mid @ 」
-♬「 Steal group pict 」
-♬「 Midpict: 」
-♬「 Info @ 」
-♬「 Youtube 」
-♬「 Vidio 」
-♬「 Wiki 」
-♬「 Instagram 」
-
-[ # ] Transelate Command [ # ]
-
-♬「 Translate-idn 」
-♬「 Translate-eng 」
-♬「 Translate-japan 」
-♬「 Translate-thai」
-♬「 Spam [on/off] [jumlah] [text]」
-♬「 Image: (link) 」
-♬「 Searchimage 」
-
-[ # ] New Command [ # ]
-
-♬ 「Spam gift」
-♬ 「Spam sticker」
-♬ 「Random sticker」
-♬ 「Random gift」
-♬ 「Random number」
-♬ 「Spam toket」
-♬ 「Spam anu」
-
-[ # ] Chat command [ # ]
-
-♬ 「Bisakah 」
-♬ 「Dosa @」
-♬ 「Pahala @」
-♬ 「Dimana 」
-♬ 「Apakah 」
-♬ 「Besar cinta nama ke nama 」
-
-[ # ] Anu Command [ # ]
-
-♬ 「Pap cecan」
-♬ 「Pap toket」
-♬ 「Pap anu」
-♬ 「Pap pocong」
-♬ 「Pap kuntilanak」
-
-☬Ƥᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ɢ̶͎͚̥͎͔͕ͥ̿ᴀ̶̘̫͈̭͌͛͌̇̇̍s̶̪̭̱̼̼̉̈́ͪ͋̽̚ᴜ̶̟͎̲͕̼̲ͮͫͭ̋ͭ͛ͣ̈s̶̪̭̱̼̼̉̈́ͪ͋̽̚ ᴛ̶̘̟̼̉̈́͐͋͌̊ᴇ̶̮̟͈̣̖̰̩̹͈̾ͨ̑͑ᴀ̶̘̫͈̭͌͛͌̇̇̍ᴍ̶̘͈̺̪͓̺ͩ͂̾ͪ̀̋ ʙ̶͎̣̫͈̥̗͒͌̃͑̔̾ͅᴏ̶̜̓̇ͫ̉͊ͨᴛ̶̘̟̼̉̈́͐͋͌̊
-
-┏━━ೋ• ❄ •ೋ━━━┓
-       ❁ Selfbot V 2  ❁    
-┗━━ೋ• ❄ •ೋ━━━┛
+       💥Ｓモㄥ下   乃口匕💥
+🌀▂▃▅▇█▓▒░۩M͓̽E͓̽N͓̽U͓̽۩░▒▓█▇▅▃▂🌀      
+      🔘⚔ Creator ⚔
+      🔘⚔ Gcreator ⚔
+      🔘⚔ List group: ⚔
+      🔘⚔ Leave group: ⚔
+      🔘⚔ Cancel ⚔
+      🔘⚔ Url:on/off ⚔
+      🔘⚔ Autojoin:on/off ⚔
+      🔘⚔ Autocancel:on/off ⚔
+      🔘⚔ Qr:on/off ⚔
+      🔘⚔ Autokick:on/off ⚔
+      🔘⚔ Contact:on/off ⚔
+      🔘⚔ Gift1-3 ⚔
+      🔘⚔ Tag all/Mention all⚔
+      🔘⚔ Bintit /Tan⚔      
+      🔘⚔ Boom  @ ⚔
+      🔘⚔ Add all ⚔
+      🔘⚔ Recover ⚔
+      🔘⚔ Remove all chat ⚔
+      🔘⚔ Gn: [ name ] ⚔
+      🔘⚔ Kick: [ mid ] ⚔
+      🔘⚔ Invite: [ mid ] ⚔
+      🔘⚔ Welcome ⚔
+      🔘⚔ Bc: [ text ] ⚔
+      🔘⚔ Cancelall ⚔ 
+      🔘⚔ Gurl ⚔
+      🔘⚔ Self Like ⚔
+      🔘⚔ Speedbot ⚔
+      🔘⚔ Ban ⚔
+      🔘⚔ Unban ⚔
+      🔘⚔ Ban  @ ⚔
+      🔘⚔ Unban  @ ⚔
+      🔘⚔ Banlist ⚔
+      🔘⚔ Kill ban ⚔
+      🔘⚔ Mid  @ ⚔
+      🔘⚔ Kernel ⚔
+      🔘⚔ random: [ jumlah ] ⚔
+      🔘⚔ Gcreator:inv ⚔
+      🔘⚔ Gcreator ⚔
+      🔘⚔ Cipok ⚔
+      🔘⚔ Kickall ⚔
+      🔘⚔ Reboot ⚔
+      🔘⚔ Runtime ⚔
+      🔘⚔ Blacklist  @  ⚔
+      🔘⚔ Myname: ⚔
+      🔘⚔ Mybio: ⚔
+      🔘⚔ Copy  @ ⚔
+      🔘⚔ Backup me ⚔ 
+      🔘⚔ Ifconfig ⚔
+      🔘⚔ Kernel  ⚔
+      🔘⚔ Cpu ⚔
+      🔘⚔ System ⚔
+      🔘⚔ Say ⚔
+      🔘⚔ Say-en ⚔English
+      🔘⚔ Say-af  ⚔Africans
+      🔘⚔ Say-ko ⚔Korean
+      🔘⚔ Say-id  ⚔Indonesian
+      🔘⚔ Say-de ⚔Germany
+      🔘⚔ Say-ja  ⚔Japan
+      🔘⚔ Say-pl  ⚔Polish
+      🔘⚔ Music  ⚔
+      🔘⚔ Lyric⚔
+      🔘⚔ Steal name @ ⚔
+      🔘⚔ Steal bio @ ⚔
+      🔘⚔ Steal status @ ⚔
+      🔘⚔ Steal contact @ ⚔
+      🔘⚔ Steal cover @ ⚔
+      🔘⚔ Steal pict @ ⚔
+      🔘⚔ Steal mid @ ⚔
+      🔘⚔ Steal group pict ⚔
+      🔘⚔ Midpict: ⚔
+      🔘⚔ Info @ ⚔
+      🔘⚔ Youtube ⚔
+      🔘⚔ Vidio ⚔
+      🔘⚔ Wiki ⚔
+      🔘⚔ Instagram ⚔
+      🔘⚔ Translate-idn ⚔
+      🔘⚔ Translate-eng ⚔
+      🔘⚔ Translate-japan ⚔
+      🔘⚔ Translate-thai⚔
+      🔘⚔ Spam [on/off] [jumlah] [text]⚔
+      🔘⚔ Image: (link) ⚔
+      🔘⚔ Searchimage ⚔
+      🔘 ⚔Spam gift⚔
+      🔘 ⚔Spam sticker⚔
+      🔘 ⚔Random sticker⚔
+      🔘 ⚔Random gift⚔
+      🔘 ⚔Random number⚔
+      🔘 ⚔Spam toket⚔
+      🔘 ⚔Spam anu⚔
+      🔘 ⚔Virus⚔
+      🔘 ⚔Bisakah ⚔
+      🔘 ⚔Dosa @⚔
+      🔘 ⚔Pahala @⚔
+      🔘 ⚔Dimana ⚔
+      🔘 ⚔Apakah ⚔
+      🔘 ⚔Assist clone @⚔ 
+      🔘 ⚔Assist backup ⚔
+      🔘 ⚔Assist spam @⚔
+      🔘 ⚔Assist name: ⚔
+      🔘 ⚔Assist bio: ⚔
+      🔘 ⚔Assist speed⚔
+      🔘 ⚔Assist join⚔
+      🔘 ⚔Assist out⚔
+      🔘 ⚔Abist⚔
+▂▃▅▇█▓▒░۩S̺͆T̺͆A̺͆R̺͆B̺͆O̺͆T̺͆۩░▒▓█▇▅▃▂
+═╬════════►∆∆
+                            E̸͟͞d̸͟͞i̸͟͞t̸͟͞e̸͟͞d̸͟͞.
+By.   »»» http://line.me/ti/p/VxtJPseezK «««
+═╬════════►
 """
 
 KAC=[cl] 
 mid = cl.getProfile().mid
-Creator="u5baffcc81a0a0689982216a005cfc70b"
-admin=["u5baffcc81a0a0689982216a005cfc70b"]
+Creator="u7f8b600054e3730be1fd022550cdf1e0"
+admin=["u7f8b600054e3730be1fd022550cdf1e0"]
 
 contact = cl.getProfile()
 backup = cl.getProfile()
@@ -189,7 +163,7 @@ wait = {
     "dblacklist":False,
     "Qr":True,
     "Timeline":True,
-    "Contact":True,
+    "Contact":False,
     "lang":"JP",
     "BlGroup":{}
 }
