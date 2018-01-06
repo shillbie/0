@@ -15,11 +15,11 @@ from threading import Thread
 import urllib3
 
 cl = LINETCR.LINE()
-cl.login(token="EomO8pPwJa6SXviBZrlb.wvTH9/seZu9vDRNQs/ArwW.qr6WUAWENqM6ZDAAJ0JSobC34Ubqyw7vtNQx4YuM3yk=")
+cl.login(token="EoZl3pwJTS15Kqe88t2b.wvTH9/seZu9vDRNQs/ArwW.ac+MF/xjg+1tkpD3Yjjrc1avEpHiZgmPVEM6eCFQ5SQ=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="EosSJtJJSf8LnoMSjYTe.xPOspEu0Pig/LQV304i/JG.MIgnlGfCD8bqQo3FekapxgLz8S2itvvSXzDqu4b15F0=")
+ki.login(token="Eo45jLYHE6nHXz3NT3Ad.qcJOSgzQEpbuah+2LTD5Bq.dFnOMmTxdMFrTG47zWH9ABYIUdPw1RKgtLGNU4PuGUk=")
 ki.loginResult()
 
 print "===[Login Success]==="
