@@ -14,7 +14,7 @@ from gtts import gTTS
 from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="EoV0exgsvzIZgqiux0i0.F4TGaftJCWVH+qiLum3X4a.Mx/yvMUSGsnJ0CrHGt0S98lAkgCosYqtqWUVSNB1zv4=")
+cl.login(token="Eoy3H9bJIOhEwMjBXks7.Kzlr3Dnbzp+L0i77PE8AvW.+A/HcJ1Tx+Sd1Evzh7IT41ZhOhL/PGYeJOaocEikGlQ=")
 #cl.login(token='TOKEN_HERE')
 cl.loginResult()
 print "Cl-Login Success\n"
