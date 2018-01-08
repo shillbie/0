@@ -14,7 +14,7 @@ from gtts import gTTS
 from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="Eo0pPoe3I3q0Dc7uW066.DJfCP5tT35HajOsEmvX6PG.LNt7lYb+Ttx9k3+9GN++WOc0CRNU3XRb5xVHvKD8wuQ=")
+cl.login(token="EoNd8YEYsZNuFNIeVRJ0.F4TGaftJCWVH+qiLum3X4a.bqE2aZemVcvFfuvvCJJXOW36IWigUWyWOFwAEySUy/o=")
 #cl.login(token='TOKEN_HERE')
 cl.loginResult()
 print "Cl-Login Success\n"
@@ -47,7 +47,7 @@ selfMessage ="""
 ╠➩〘Getvid @〙
 ╠➩〘Friendlist〙
 ╠═════════════════════════
-║             💠 By:☄i̺͆y̺͆o̺͆😎
+║             💠 By:☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -67,7 +67,7 @@ botMessage ="""
 ╠➩〘Backup all〙
 ╠➩〘/bio Text〙
 ╠═════════════════════════
-║             💠By ☄i̺͆y̺͆o̺͆😎
+║             💠By ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -104,7 +104,7 @@ mediaMessage ="""
 ╠➩〘Id@en Text (Translate ID Ke En〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By: ☄i̺͆y̺͆o̺͆😎
+║             💠 By: ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -147,7 +147,7 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By: ☄i̺͆y̺͆o̺͆😎
+║             💠 By: ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -168,7 +168,7 @@ setMessage ="""
 ╠➩〘Contact on/off〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║               BY ☄i̺͆y̺͆o̺͆😎
+║               BY ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -225,7 +225,7 @@ helpMessage ="""
 ╠➩〘P untuk >Speed〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║          id line: ☄i̺͆y̺͆o̺͆😎
+║          id line: ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -3573,4 +3573,3 @@ while True:
         if (Op.type != OpType.END_OF_OPERATION):
             cl.Poll.rev = max(cl.Poll.rev, Op.revision)
             bot(Op)
-
