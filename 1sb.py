@@ -13,7 +13,7 @@ from gtts import gTTS
 from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="EoNd8YEYsZNuFNIeVRJ0.F4TGaftJCWVH+qiLum3X4a.bqE2aZemVcvFfuvvCJJXOW36IWigUWyWOFwAEySUy/o=")
+cl.login(token="EoV0exgsvzIZgqiux0i0.F4TGaftJCWVH+qiLum3X4a.Mx/yvMUSGsnJ0CrHGt0S98lAkgCosYqtqWUVSNB1zv4=")
 cl.loginResult()
 
 print "===[Login Success]==="
@@ -23,7 +23,7 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
        💥Ｓモㄥ下   乃口匕💥
-🌀▂▃▅▇█▓▒░۩M͓̽E͓̽N͓̽U͓̽۩░▒▓█▇▅▃▂🌀      
+🌀▂▃▅▇█▓▒░۩M͓̽E͓̽N͓̽U͓̽۩░▒▓█▇▅▃▂🌀      
       🔘⚔ Creator ⚔
       🔘⚔ Gcreator ⚔
       🔘⚔ List group: ⚔
@@ -128,9 +128,9 @@ helpMessage ="""
       🔘 ⚔Assist join⚔
       🔘 ⚔Assist out⚔
       🔘 ⚔Abist⚔
-▂▃▅▇█▓▒░۩S̺͆T̺͆A̺͆R̺͆B̺͆O̺͆T̺͆۩░▒▓█▇▅▃▂
+▂▃▅▇█▓▒░۩S̺͆T̺͆A̺͆R̺͆B̺͆O̺͆T̺͆۩░▒▓█▇▅▃▂
 ═╬════════►∆∆
-                            E̸͟͞d̸͟͞i̸͟͞t̸͟͞e̸͟͞d̸͟͞.
+                            E̸͟͞d̸͟͞i̸͟͞t̸͟͞e̸͟͞d̸͟͞.
 By.   »»» http://line.me/ti/p/VxtJPseezK «««
 ═╬════════►
 """
@@ -1782,4 +1782,3 @@ while True:
         if (Op.type != OpType.END_OF_OPERATION):
             cl.Poll.rev = max(cl.Poll.rev, Op.revision)
             bot(Op)
-
