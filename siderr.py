@@ -234,8 +234,8 @@ helpMessage ="""
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots=[mid]
-Creator="u5baffcc81a0a0689982216a005cfc70b"
-admin= ["u5baffcc81a0a0689982216a005cfc70b","u5de46004dc0d2e5740ee96d4fc2ef892","u4fd06871f6f34b093a3972b8b5de8f3d","u720e2553e7e74e1d56c797775eda558e","u246cb4d9c8a981d4299b7ef16cad49d9","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u31a54e26da314829c76fa084730dae76",mid] 
+Creator= ["u5baffcc81a0a0689982216a005cfc70b"]
+admin= ["u5baffcc81a0a0689982216a005cfc70b",mid] 
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -456,7 +456,34 @@ def sendAudio(self, to_, path):
 
 def sendAudioWithURL(self, to_, url):
         path = self.downloadFileWithURL(url)
-        try:
+        try:Cbc ===============
+ →Jasa sewa bot←
+===============
+→Harga Perbulan←
+===============
+
+
+⇨ 10 bot protect + 1kicker = 100k
+      Admin only
+=====================
+⇨  10 bot protect + 1kicker = 130k
+Owner = bisa add admin
+======================
+⇨ selfbot 10 assist protect + 1 kicker = 150k
+Owner = bisa add admin
+========================
+⇨ Selfbot = 30k
+=================
+Speed : 
+~ Py2 = 0.05
+=================
+Pembyaran
+Via bank
+Via pulsa telkomsel
+=================
+
+Minat?
+Pc aja
             self.sendAudio(to_, path)
         except Exception as e:
             raise Exception(e)
