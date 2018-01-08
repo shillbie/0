@@ -456,34 +456,7 @@ def sendAudio(self, to_, path):
 
 def sendAudioWithURL(self, to_, url):
         path = self.downloadFileWithURL(url)
-        try:Cbc ===============
- →Jasa sewa bot←
-===============
-→Harga Perbulan←
-===============
-
-
-⇨ 10 bot protect + 1kicker = 100k
-      Admin only
-=====================
-⇨  10 bot protect + 1kicker = 130k
-Owner = bisa add admin
-======================
-⇨ selfbot 10 assist protect + 1 kicker = 150k
-Owner = bisa add admin
-========================
-⇨ Selfbot = 30k
-=================
-Speed : 
-~ Py2 = 0.05
-=================
-Pembyaran
-Via bank
-Via pulsa telkomsel
-=================
-
-Minat?
-Pc aja
+        try:
             self.sendAudio(to_, path)
         except Exception as e:
             raise Exception(e)
