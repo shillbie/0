@@ -72,58 +72,58 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 ╔═════════════
-║     ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰ 
+║     ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰ 
 ╠═════════════
 ║                
 ╠═════════════
 ║   ◄]·♦·Menu For Public·♦·[►
 ║╔════════════
-║╠[O̺͆]Help
-║╠[O̺͆]Key
-║╠[O̺͆]Mimin
-║╠[O̺͆]Creator
-║╠[O̺͆]Time
+║╠[O̺͆]Help
+║╠[O̺͆]Key
+║╠[O̺͆]Mimin
+║╠[O̺͆]Creator
+║╠[O̺͆]Time
 ║╠════════════
-║╠[O̺͆]Say....
-║╠[O̺͆]Wkwkwk/Wkwk/Wk
-║╠[O̺͆]Hehehe/Hehe/He
-║╠[O̺͆]Galau
-║╠[O̺͆]You
-║╠[O̺͆]Hadeuh
-║╠[O̺͆]Please
-║╠[O̺͆]Haaa
-║╠[O̺͆]Lol
-║╠[O̺͆]Hmmm/Hmm/Hm
-║╠[O̺͆]Welcome
-║╠[O̺͆]Woy
+║╠[O̺͆]Say....
+║╠[O̺͆]Wkwkwk/Wkwk/Wk
+║╠[O̺͆]Hehehe/Hehe/He
+║╠[O̺͆]Galau
+║╠[O̺͆]You
+║╠[O̺͆]Hadeuh
+║╠[O̺͆]Please
+║╠[O̺͆]Haaa
+║╠[O̺͆]Lol
+║╠[O̺͆]Hmmm/Hmm/Hm
+║╠[O̺͆]Welcome
+║╠[O̺͆]Woy
 ║╠════════════
-║╠[O̺͆]Wiki 
-║╠[O̺͆]Lyric
-║╠[O̺͆]Instagram
-║╠[O̺͆]Music
-║╠[O̺͆]Youtube
-║╠[O̺͆]Vidio
+║╠[O̺͆]Wiki 
+║╠[O̺͆]Lyric
+║╠[O̺͆]Instagram
+║╠[O̺͆]Music
+║╠[O̺͆]Youtube
+║╠[O̺͆]Vidio
 ║╠════════════
-║╠[O̺͆]Bc
-║╠[O̺͆]Up
-║╠[O̺͆]Berapa banyak dosa
-║╠[O̺͆]Apakah
-║╠[O̺͆]Siapakah cewek 
-║╠[O̺͆]Siapakah cowok
-║╠[O̺͆]Adakah
-║╠[O̺͆]Cakepkah
+║╠[O̺͆]Bc
+║╠[O̺͆]Up
+║╠[O̺͆]Berapa banyak dosa
+║╠[O̺͆]Apakah
+║╠[O̺͆]Siapakah cewek 
+║╠[O̺͆]Siapakah cowok
+║╠[O̺͆]Adakah
+║╠[O̺͆]Cakepkah
 ║╠════════════
 ║╠[•]~
 ║╠[•]~
 ║╠[•]~
 ║╠[•]~
 ║╚════════════
-║     ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰
+║     ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰
 ╚═════════════
 """
 Keyowner ="""
 ╔═════════════
-║       ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰ 
+║       ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰ 
 ╠═════════════
 ║                          
 ╠═════════════
@@ -177,12 +177,12 @@ Keyowner ="""
 ║╠[•]Speedbot
 ║╠[•]Speed
 ║╚════════════
-║     ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰
+║     ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰
 ╚═════════════
 """
 Setgroup ="""
 ╔═════════════
-║       ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰ 
+║       ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰ 
 ╠═════════════
 ║                         
 ╠═════════════
@@ -274,7 +274,7 @@ Setgroup ="""
 ║╚════════════
 ║👑Hanya Utk Owner/Admin👑
 ╠═════════════
-║     ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰
+║     ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰
 ╚═════════════ 
 """
 KAC=[cl,ki,kk,kc,ks,k1,k2,k3,k4,k5]
@@ -302,7 +302,7 @@ targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
 induk=[mid]
 Creator=["u5baffcc81a0a0689982216a005cfc70b"]
-admin=["u5baffcc81a0a0689982216a005cfc70b","u246cb4d9c8a981d4299b7ef16cad49d9","u76315ca794eddf984026849e315c7aa6","u01800554d8ba8c353be01aab85de9110","ufad6050bc087e1492034e7cdfb061320","u944c5e70a6302e1a2fe0900c864691d4","u246cb4d9c8a981d4299b7ef16cad49d9","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u339c796f7e22d269678ec400ce5cf953","u940947814c50be1fed29c901beed59e1","u31a54e26da314829c76fa084730dae76","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #RHna,RH,
+admin=["u5baffcc81a0a0689982216a005cfc70b","ub5c82d06d5ffcfd4a52991549f6ba3d6","u246cb4d9c8a981d4299b7ef16cad49d9","u76315ca794eddf984026849e315c7aa6","u01800554d8ba8c353be01aab85de9110","ufad6050bc087e1492034e7cdfb061320","u944c5e70a6302e1a2fe0900c864691d4","u246cb4d9c8a981d4299b7ef16cad49d9","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u339c796f7e22d269678ec400ce5cf953","u940947814c50be1fed29c901beed59e1","u31a54e26da314829c76fa084730dae76","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #RHna,RH,
 owner=["u5baffcc81a0a0689982216a005cfc70b","u246cb4d9c8a981d4299b7ef16cad49d9","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b"]
 wait = {
     'contact':False,
@@ -313,18 +313,18 @@ wait = {
     'autoAdd':True,
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
 ≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
->>✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰<<
+>>✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰<<
 
 ≫ bot protect ≪
 ≫ SelfBot ≪
 
 ṡȗƿƿȏяṭєԀ ɞʏ:
   
-✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      
+✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      
 
 Idline: http://line.me/ti/p/VxtJPseezK""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««",
+    "comment":"👉ąµţ๏ℓɨЌ€ By😊\n☆º°˚˚☆✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰☆º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -2143,7 +2143,7 @@ def bot(op):
                   cl.sendText(msg.to,"The stafflist is empty")
               else:
                   cl.sendText(msg.to,"Tunggu...")
-                  mc = "||Admin ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰||\n=====================\n"
+                  mc = "||Admin ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰||\n=====================\n"
                   for mi_d in admin:
                       mc += "••>" +cl.getContact(mi_d).displayName + "\n"
                   cl.sendText(msg.to,mc)
@@ -3519,7 +3519,7 @@ def bot(op):
                 else: md+="[•]Protect Cancel [Off]\n"
                 if wait["protectionOn"] == True: md+="[•]Protection : hight\n"+ datetime.today().strftime('%H:%M:%S')
                 else:md+="[•]Protection : low\n"+ datetime.today().strftime('%H:%M:%S')
-                "\n*============*\n⭐✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰⭐\n*============*"
+                "\n*============*\n⭐✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰⭐\n*============*"
                 cl.sendText(msg.to,md)
             elif "Time" in msg.text:
               if msg.from_ in admin:
@@ -4453,7 +4453,7 @@ def bot(op):
                                 #print rom
                                 chiya += rom[1] + "\n"
 
-                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : ✰ই͜͜͡☬i̺͆y̺͆o̺͆😎✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆  ✰     ||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : ✰ই͜͜͡☬i̺͆y̺͆o̺͆😎✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆  ✰     ||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
                         cl.sendText(msg.to, "Ketik Cctv dulu Koplak\nBaru Ketik Toong\nDASAR PIKUN ♪")
                         
@@ -4482,7 +4482,7 @@ def bot(op):
                             for rom in wait2["ROM"][msg.to].items():
                                 print "[Command] Check"
                                 chiya += rom[1] + "\n"
-                        cl.sendText(msg.to, "✔ ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰\nRead : %s\n\n✖ Sider :\n%s\nPoint creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "✔ ✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰\nRead : %s\n\n✖ Sider :\n%s\nPoint creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                         try:
                             del wait2['readPoint'][msg.to]
                             del wait2['readMember'][msg.to]
@@ -5531,7 +5531,7 @@ def bot(op):
                 k3.sendText(msg.to,"★★★★★★★★")
                 k4.sendText(msg.to,"★★★★★★★★★")
                 k5.sendText(msg.to,"★★★★★★★★★★")
-                random.choice(KAC).sendText(msg.to,"Semua Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Anu\n[✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰]")
+                random.choice(KAC).sendText(msg.to,"Semua Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Anu\n[✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰]")
       #-------------Fungsi Respon Finish---------------------#
                             
 #==========================================
@@ -6235,7 +6235,7 @@ def autolike():
       if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
         try:
           cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
           ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
@@ -6250,7 +6250,7 @@ def autolike():
           k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           k3.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
           print "Like"
         except:
           pass
@@ -6277,14 +6277,14 @@ def likePost():
                     k3.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     k4.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     k5.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
-                    k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    kk.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    kc.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    ks.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    k1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    k2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
+                    k3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰😊\n\n☆º°˚˚☆ ✰ S̺͆T̺͆A̺͆R̺͆ B̺͆O̺͆T̺͆S̺͆ ✰      ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by RH ⭐👈 »»» http://line.me/ti/p/VxtJPseezK «««")
                     print "Like"
                 except:
                     pass
