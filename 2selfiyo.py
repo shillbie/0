@@ -13,7 +13,7 @@ from threading import Thread
 from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="Eo9FIOMpDW2ajNLXJzvb.w6+8YbOkbOMyiHAGbC+hcW.+cg2i+bnzkLG0nq0zFsYGwxSdoK3K/Pfyq0DZNj4BDk=")
+cl.login(token="EoaGj02Wx39u36R0VZ0b.w6+8YbOkbOMyiHAGbC+hcW.xBs1K4lYpzKA6/bc11qassz2ekenWhwwCPj06uOLFo0=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
@@ -27,7 +27,7 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
           💥Ｓモㄥ下   乃口匕💥
-🌀▂▃▅▇█▓▒░۩M͓̽E͓̽N͓̽U͓̽۩░▒▓█▇▅▃▂🌀      
+🌀▂▃▅▇█▓▒░۩M͓̽E͓̽N͓̽U͓̽۩░▒▓█▇▅▃▂🌀      
 🔘⚔ Creator ⚔
 🔘⚔ Gcreator ⚔
 🔘⚔ List group: ⚔
@@ -132,9 +132,9 @@ helpMessage ="""
 🔘 ⚔Assist join⚔
 🔘 ⚔Assist out⚔
 🔘 ⚔Abist⚔      
-▂▃▅▇█▓▒░۩S̺͆T̺͆A̺͆R̺͆B̺͆O̺͆T̺͆۩░▒▓█▇▅▃▂
+▂▃▅▇█▓▒░۩S̺͆T̺͆A̺͆R̺͆B̺͆O̺͆T̺͆۩░▒▓█▇▅▃▂
 ═╬════════►∆∆
-                            E̸͟͞d̸͟͞i̸͟͞t̸͟͞e̸͟͞d̸͟͞.
+                            E̸͟͞d̸͟͞i̸͟͞t̸͟͞e̸͟͞d̸͟͞.
 By.   »»» http://line.me/ti/p/VxtJPseezK «««
 ═╬════════►
 """
@@ -185,7 +185,7 @@ def sendMessage(to, text, contentMetadata={}, contentType=0):
 def waktu(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
-    return '%02d J̺͆a̺͆m̺͆ %02d M̺͆e̺͆n̺͆i̺͆t̺͆ %02d D̺͆e̺͆t̺͆i̺͆k̺͆' % (hours, mins, secs)
+    return '%02d J̺͆a̺͆m̺͆ %02d M̺͆e̺͆n̺͆i̺͆t̺͆ %02d D̺͆e̺͆t̺͆i̺͆k̺͆' % (hours, mins, secs)
     
 #^deff searchimage
 
@@ -579,7 +579,7 @@ def bot(op):
 		jml = 0
                 for i in gid:
 		    gn = ki.getGroup(i).name
-                    h += "[{o̺͆}]【%s】\n" % (gn)
+                    h += "[{o̺͆}]【%s】\n" % (gn)
 		    jml += 1
                 ki.sendText(msg.to,"======[List Group]======\n"+ h +"Total group: "+str(jml))
 #--------------------------------------------------------
@@ -1390,7 +1390,7 @@ def bot(op):
 		print("Speed")
 		cl.sendText(msg.to, "「Please wait..」")
 		elapsed_time = time.time() - start
-                cl.sendText(msg.to, "[{o̺͆}]「Speed : 0.04 - 0.07」\n[{o̺͆}]「Speed is : %sseconds 」" % (elapsed_time))
+                cl.sendText(msg.to, "[{o̺͆}]「Speed : 0.04 - 0.07」\n[{o̺͆}]「Speed is : %sseconds 」" % (elapsed_time))
 
 #--------------------------------------------------------
             elif msg.text in ["Ban"]:
@@ -1833,4 +1833,3 @@ while True:
         if (Op.type != OpType.END_OF_OPERATION):
             cl.Poll.rev = max(cl.Poll.rev, Op.revision)
             bot(Op)
-
