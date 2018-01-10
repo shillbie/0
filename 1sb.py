@@ -91,8 +91,7 @@ helpMessage ="""
       🔘⚔ Steal contact @ ⚔
       🔘⚔ Steal cover @ ⚔
       🔘⚔ Steal pict @ ⚔
-      🔘⚔ Steal mid @ ⚔
-      🔘⚔ Steal group pict ⚔
+      🔘⚔ Steal mid @ ⚔      🔘⚔ Steal group pict ⚔
       🔘⚔ Midpict: ⚔
       🔘⚔ Info @ ⚔
       🔘⚔ Youtube ⚔
