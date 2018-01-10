@@ -2252,12 +2252,12 @@ def bot(op):
                 msg.text = None
                 cl.sendMessage(msg)
 #--------------------------------------------------------
-	    elif "Bc " in msg.text:
+	    elif "> " in msg.text:
 		bc = msg.text.replace("Bc: ","")
 		gid = cl.getGroupIdsJoined()
 		if msg.from_ in admin:
 		    for i in gid:
-			cl.sendText(i,"========[SORY BOS]========\n=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : http://line.me/ti/p/VxtJPseezK")
+			cl.sendText(i,""+bc+"\n\nContact Me : http://line.me/ti/p/VxtJPseezK")
 		    cl.sendText(msg.to,"Success BC BosQ")
 		else:
 		    cl.sendText(msg.to,"Khusus Admin")
