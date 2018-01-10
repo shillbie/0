@@ -302,8 +302,8 @@ targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
 induk=[mid]
 Creator=["u5baffcc81a0a0689982216a005cfc70b"]
-admin=["u5baffcc81a0a0689982216a005cfc70b","ub5c82d06d5ffcfd4a52991549f6ba3d6","u246cb4d9c8a981d4299b7ef16cad49d9","u76315ca794eddf984026849e315c7aa6","u01800554d8ba8c353be01aab85de9110","ufad6050bc087e1492034e7cdfb061320","u944c5e70a6302e1a2fe0900c864691d4","u246cb4d9c8a981d4299b7ef16cad49d9","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u339c796f7e22d269678ec400ce5cf953","u940947814c50be1fed29c901beed59e1","u31a54e26da314829c76fa084730dae76","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #RHna,RH,
-owner=["u5baffcc81a0a0689982216a005cfc70b","u246cb4d9c8a981d4299b7ef16cad49d9","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b"]
+admin=["u5baffcc81a0a0689982216a005cfc70b","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u01800554d8ba8c353be01aab85de9110",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #RHna,RH,
+owner=["u5baffcc81a0a0689982216a005cfc70b","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b"]
 wait = {
     'contact':False,
     'autoJoin':True,
