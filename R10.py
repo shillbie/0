@@ -5429,7 +5429,7 @@ def bot(op):
                   kc.sendText(taf, (bctxt))
                   ks.sendText(taf, (bctxt))
         #-------------Fungsi Broadcast Start------------#
-            elif "Bc " in msg.text:
+            elif "bc " in msg.text:
 				bctxt = msg.text.replace("Bc ","")
 				cl.sendText(msg.to,(bctxt))
 				cl.sendText(msg.to,(bctxt))
