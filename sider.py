@@ -48,7 +48,7 @@ selfMessage ="""
 ╠➩〘Getvid @〙
 ╠➩〘Friendlist〙
 ╠═════════════════════════
-║             💠 By:☄i̺͆y̺͆o̺͆😎
+║             💠 By:☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -68,7 +68,7 @@ botMessage ="""
 ╠➩〘Backup all〙
 ╠➩〘/bio Text〙
 ╠═════════════════════════
-║             💠By ☄i̺͆y̺͆o̺͆😎
+║             💠By ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -105,7 +105,7 @@ mediaMessage ="""
 ╠➩〘Id@en Text (Translate ID Ke En〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By: ☄i̺͆y̺͆o̺͆😎
+║             💠 By: ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -148,7 +148,7 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By: ☄i̺͆y̺͆o̺͆😎
+║             💠 By: ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -169,7 +169,7 @@ setMessage ="""
 ╠➩〘Contact on/off〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║               BY ☄i̺͆y̺͆o̺͆😎
+║               BY ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -226,7 +226,7 @@ helpMessage ="""
 ╠➩   hiburan
 ╠➩   thanks......
 ╠═════════════════════════
-║          id line: ☄i̺͆y̺͆o̺͆😎
+║          id line: ☄i̺͆y̺͆o̺͆😎
 ║    〽️ http://line.me/ti/p/VxtJPseezK
 ╚═════════════════════════
 """
@@ -235,7 +235,7 @@ helpMessage ="""
 KAC=[cl]
 mid = cl.getProfile().mid
 Bots=[mid]
-Creator=""
+Creator="u5baffcc81a0a0689982216a005cfc70b"
 admin= ["u5baffcc81a0a0689982216a005cfc70b",mid] 
 
 contact = cl.getProfile()
@@ -2257,7 +2257,7 @@ def bot(op):
 		gid = cl.getGroupIdsJoined()
 		if msg.from_ in admin:
 		    for i in gid:
-			cl.sendText(i,"=======[BROADCAST]======="+bc+"\n\nContact Me : http://line.me/ti/p/VxtJPseezK")
+			cl.sendText(i,"========[SORY BOS]========\n=======[BROADCAST]=======\n\n"+Bc+"\n\nContact Me : http://line.me/ti/p/VxtJPseezK")
 		    cl.sendText(msg.to,"Success BC BosQ")
 		else:
 		    cl.sendText(msg.to,"Khusus Admin")
@@ -3587,4 +3587,3 @@ while True:
         if (Op.type != OpType.END_OF_OPERATION):
             cl.Poll.rev = max(cl.Poll.rev, Op.revision)
             bot(Op)
-
