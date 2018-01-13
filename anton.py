@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import KRIS
-from KRIS.lib.curve.ttypes import *
+import LINETCR
+from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
@@ -13,7 +13,7 @@ from gtts import gTTS
 from googletrans import Translator
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib
 
-kr = KRIS.LINE()
+kr = LINETCR.LINE()
 #kr.login(qr=True)
 kr.login(token='Eo1duSI9ikTW8bZHP3V4.GFf3PdqWIKNmZBy1HJ6+ba.PJx1qoL+radAbUyzYgh5ZDe2Tz9J7Ym3VJVIiyAkTCk=')#chery
 kr.loginResult()
