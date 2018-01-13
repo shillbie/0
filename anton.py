@@ -15,7 +15,7 @@ from googletrans import Translator
 
 kr = KRIS.LINE()
 #kr.login(qr=True)
-kr.login(token='EoLGjnktaOkeZ0P2Xvtb.w6+8YbOkbOMyiHAGbC+hcW.dN871cpoyqNpeO0i0Nqm1KGLD3QrGN8yrpR3OqrPbhM=')#chery
+kr.login(token='Eo1duSI9ikTW8bZHP3V4.GFf3PdqWIKNmZBy1HJ6+ba.PJx1qoL+radAbUyzYgh5ZDe2Tz9J7Ym3VJVIiyAkTCk=')#chery
 kr.loginResult()
 
 print "╔═════════════════════════\n║╔════════════════════════\n║╠[•] saya sendiri BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════"
@@ -209,9 +209,9 @@ KAC=[kr]
 mid = kr.getProfile().mid
 
 Bots=[mid]
-owner=["u5baffcc81a0a0689982216a005cfc70b",mid]
-admin=["u5baffcc81a0a0689982216a005cfc70b",mid]
-baby=["u5baffcc81a0a0689982216a005cfc70b"]#chery/barby/ranita
+owner=["u81f177a434308a49cccdb635863ebf04",mid]
+admin=["u81f177a434308a49cccdb635863ebf04",mid]
+baby=["u81f177a434308a49cccdb635863ebf04"]#chery/barby/ranita
 
 wait = {
     'likeOn':False,
