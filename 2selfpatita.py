@@ -1220,7 +1220,7 @@ def bot(op):
                 cl.sendText(msg.to, "lg di proses")                
                 print "@setview"
 
-            elif "••••" in msg.text:
+            elif "Tan" in msg.text:
 	        lurkGroup = ""
 	        dataResult, timeSeen, contacts, userList, timelist, recheckData = [], [], [], [], [], []
                 with open('dataSeen/'+msg.to+'.txt','r') as rr:
