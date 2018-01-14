@@ -15,7 +15,7 @@ from googletrans import Translator
 
 kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token='Eo1duSI9ikTW8bZHP3V4.GFf3PdqWIKNmZBy1HJ6+ba.PJx1qoL+radAbUyzYgh5ZDe2Tz9J7Ym3VJVIiyAkTCk=')#chery
+kr.login(token='EocluSPJBB3Mumisttr4.GFf3PdqWIKNmZBy1HJ6+ba.VV/cHobWdKxfFMN7VDhnXlEPMPp4XdEDvrsIbvK63Jc==')#chery
 kr.loginResult()
 
 print "╔═════════════════════════\n║╔════════════════════════\n║╠[•] saya sendiri BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════"
@@ -24,7 +24,7 @@ sys.setdefaultencoding('utf-8')
 
 helpmsg ="""
 ╔═════════════
-║   S̺͆T̺͆A̺͆R
+║   S̺͆T̺͆A̺͆R
 ╠═════════════
 ║ Owner : saya sendiri
 ║ by RH ⭐👈 »»» http://line.me/ti/pVxtJPseezk
@@ -63,7 +63,7 @@ helpmsg ="""
 
 keymsg ="""
 ╔═════════════
-║ S̺͆T̺͆A̺͆RA̺͆R͆✰
+║ S̺͆T̺͆A̺͆RA̺͆R͆✰
 ╠═════════════
 ║ Owner : saya sendiri
 ║ by RH ⭐👈 »»» http://line.me/ti/pVxtJPseezk
@@ -80,7 +80,7 @@ keymsg ="""
 
 helppro ="""
 ╔═════════════
-║ S̺͆T̺͆A̺͆RA̺͆R͆✰
+║ S̺͆T̺͆A̺͆RA̺͆R͆✰
 ╠═════════════
 ║ Owner : saya sendiri
 ║ by RH ⭐👈 »»» http://line.me/ti/pVxtJPseezk
@@ -96,7 +96,7 @@ helppro ="""
 
 helpself ="""
 ╔═════════════
-║ S̺͆T̺͆A̺͆RA̺͆R͆✰
+║ S̺͆T̺͆A̺͆RA̺͆R͆✰
 ╠═════════════
 ║ Owner : saya sendiri
 ║ by RH ⭐👈 »»» http://line.me/ti/pVxtJPseezk
@@ -129,7 +129,7 @@ helpself ="""
 
 helpset ="""
 ╔═════════════
-║ S̺͆T̺͆A̺͆RA̺͆R͆✰
+║ S̺͆T̺͆A̺͆RA̺͆R͆✰
 ╠═════════════
 ║ Owner : saya sendiri
 ║ by RH ⭐👈 »»» http://line.me/ti/pVxtJPseezk
@@ -153,7 +153,7 @@ helpset ="""
 
 helpgrup ="""
 ╔═════════════
-║ S̺͆T̺͆A̺͆RA̺͆R͆✰
+║ S̺͆T̺͆A̺͆RA̺͆R͆✰
 ╠═════════════
 ║ Owner : saya sendiri
 ║ by RH ⭐👈 »»» http://line.me/ti/pVxtJPseezk
@@ -183,7 +183,7 @@ helpgrup ="""
 
 helptranslate ="""
 ╔═════════════
-║ S̺͆T̺͆A̺͆RA̺͆R͆✰
+║ S̺͆T̺͆A̺͆RA̺͆R͆✰
 ╠═════════════
 ║ Owner : saya sendiri
 ║ by RH ⭐👈 »»» http://line.me/ti/pVxtJPseezk
@@ -230,7 +230,7 @@ wait = {
     'autoAdd':True,
     'message':"""Thx for add""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚S̺͆T̺͆A̺͆RA̺͆R͆✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by saya sendiri ⭐👈 »»» http://line.me/ti/pVxtJPseezk/p/~saya sendiristhea «««",
+    "comment":"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚S̺͆T̺͆A̺͆RA̺͆R͆✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by saya sendiri ⭐👈 »»» http://line.me/ti/pVxtJPseezk/p/~saya sendiristhea «««",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -383,7 +383,7 @@ def _images_get_all_items(page):
 #      if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
 #        try:
 #          kr.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-#          kr.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ ByS̺͆T̺͆A̺͆RA̺͆R͆✰😊\n\n☆º°˚˚☆ ̺͆T̺͆A̺͆R͆✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by saya sendiri ⭐👈 »»» http://line.me/ti/pVxtJPseezk/p/GkwfNjoPDH «««")
+#          kr.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ ByS̺͆T̺͆A̺͆RA̺͆R͆✰😊\n\n☆º°˚˚☆ ̺͆T̺͆A̺͆R͆✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by saya sendiri ⭐👈 »»» http://line.me/ti/pVxtJPseezk/p/GkwfNjoPDH «««")
 #          print "Like"
 #        except:
 #          pass
@@ -3809,7 +3809,7 @@ def likefriend():
       if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
         try:
           kr.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          kr.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚S̺͆T̺͆A̺͆RA̺͆R͆✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by saya sendiri ⭐👈 »»» http://line.me/ti/pVxtJPseezk/p/~saya sendiristhea «««")
+          kr.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚S̺͆T̺͆A̺͆RA̺͆R͆✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by saya sendiri ⭐👈 »»» http://line.me/ti/pVxtJPseezk/p/~saya sendiristhea «««")
           print "Like"
         except:
           pass
@@ -3824,7 +3824,7 @@ def likeme():
             if hasil['result']['posts'][zx]['userInfo']['mid'] in mid:
                 try:
                     kr.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    kr.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚S̺͆T̺͆A̺͆RA̺͆R͆✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by saya sendiri ⭐👈 »»» http://line.me/ti/pVxtJPseezk/p/~saya sendiristhea «««")
+                    kr.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚S̺͆T̺͆A̺͆RA̺͆R͆✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by saya sendiri ⭐👈 »»» http://line.me/ti/pVxtJPseezk/p/~saya sendiristhea «««")
                     print "Like"
                 except:
                     pass
