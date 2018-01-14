@@ -166,9 +166,9 @@ wait = {
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
-    "Qr":True,
+    "Qr":False,
     "Timeline":True,
-    "Contact":True,
+    "Contact":False,
     "lang":"JP",
     "BlGroup":{}    
 }    
