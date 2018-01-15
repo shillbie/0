@@ -12,7 +12,59 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 
+cl = LINETCR.LINE() 
+#cl.login(qr=True)
+cl.login(token="EoMdkR8iCz2WWVWluGLe.xPOspEu0Pig/LQV304i/JG.5yJzxnOYpeQbVPbUPr4LNEv5bOT5gqwCi3s7QXQv58o=")
+cl.loginResult()
 
+ki = LINETCR.LINE() 
+#ki.login(qr=True)
+ki.login(token="Eo14vo8GF1Gf08hS3PV1.wOe3+tIdNxRJik2Eaf7nOq.5SNsc7RXfIkDKVfKjzY790iVjC7eSwaotKPnqF97KI0=")
+ki.loginResult()
+
+kk = LINETCR.LINE() 
+#kk.login(qr=True)
+kk.login(token="EoyJzPnrK3rxan1OeU5b.j0tevqX/kt6xRCOKoax7sW.i32pT5cl0+TtFVBAQX552IyBU9EK18ablC1UWB0h0g0=")
+kk.loginResult()
+
+kc = LINETCR.LINE() 
+#kc.login(qr=True)
+kc.login(token="EoOyHlvn7hlypaWqdLnc.64p7hMq5ZbXymY+T0gu3Na.mRIR6d6+gfA61RAsY06aib1onPLLYxDz8SGicJL0hR0=")
+kc.loginResult()
+
+ks = LINETCR.LINE() 
+#ks.login(qr=True)
+ks.login(token="EoRmIvpVzqR37rlAJWh9.Eh+xAjKRse5Gp+veh562Mq.9leqmIrRWbih/gKVdm1ZdjB25icuyik2AU6VNHuRhdE=")#5
+ks.loginResult()
+
+k1 = LINETCR.LINE()
+k1.login(token="EoQeyJnot4vLkyPSzUSa.ofPkasavZhLKD4OwvrsSMG.Iwf1621uYys/HMIQxm21znuGyIAHZHzJ8WfGbs6PQoU=")
+k1.loginResult()
+
+k2 = LINETCR.LINE() 
+#k2.login(qr=True)
+k2.login(token="EoT1S5WtirxGJBtTpgua.+swELSmclJDdUyMkvoatAG.LaqSTnCBuJHLWLAY/XTxOC86O19ogJpXZXmFac1PhdA=")#7
+k2.loginResult()
+
+k3 = LINETCR.LINE() 
+#k3.login(qr=True)
+k3.login(token="EozicH98CuzReH60iovd.t9bOCFBZsWK6oxk4TD6ppq.8S1RrJM0UPSHuuTcg8SzguPPUB4T+0UXqR7FnvlKQa4=")#8
+k3.loginResult()
+
+k4 = LINETCR.LINE() 
+#k4.login(qr=True)
+k4.login(token="EoPyyDTKnQv5UC6woFN6.PARWLiQ1yX8Ge7Tqgg1FbG.jJqWRnmuKZ9II261k+v3GxI9/7GqyZmWQ1WvRZf2zDQ=")#9
+k4.loginResult()
+
+k5 = LINETCR.LINE() 
+#k5.login(qr=True)
+k5.login(token="EoIuC8JWVlYFpVt7XDRd.qcJOSgzQEpbuah+2LTD5Bq.TuVm5Y4HQu3FJskOOoDSKTh70HrEVYeYZYFmW2wRT2w=")#10
+k5.loginResult()
+
+satpam1 = LINETCR.LINE()  
+satpam1.login(token="EoABPBgPtMuCSgcnnZm6.DJfCP5tT35HajOsEmvX6PG.uSdcqU1JuZz13/ZJ78KJJifafnyV3J4pKk6/uMVuqR4=")#11
+#satpam1.login(qr=True)
+satpam1.loginResult()
 
 print "login success bos"
 reload(sys)
