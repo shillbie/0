@@ -3148,7 +3148,7 @@ def bot(op):
                         pass
 
 #----------------------------------------------------------
-            elif "/bio " in msg.text:
+            elif "//bio " in msg.text:
                     string = msg.text.replace("/bio ","")
                     if len(string.decode('utf-8')) <= 500:
                         profile = cl.getProfile()
@@ -3160,7 +3160,7 @@ def bot(op):
                         cl.updateProfile(profile)
                         cl.sendText(msg.to,"All Done")
 #----------------------------------------------------------
-            elif "/cnkapten " in msg.text:
+            elif "//cnkapten " in msg.text:
 		if msg.from_ in Creator:
                     string = msg.text.replace("/cnkapten ","")
                     if len(string.decode('utf-8')) <= 5000:
