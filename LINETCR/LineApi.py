@@ -47,7 +47,7 @@ class LINE:
               'User-Agent': 'Line/7.18.0'#'Line/7.18.0 AppleWebKit/534.30'#'Line/6.0.0 iPad4,1 9.0.2'#'Line/7.18.0 iPad4,1 9.0.2'
    }
     self.Poll = Poll(self.authToken)
-    self.channel = channel.Channel(self.authToken)
+    #self.channel = channel.Channel(self.authToken)
     #self.channel.login()	
     #self.mid = self.channel.mid
     #self.channel_access_token = self.channel.channel_access_token
