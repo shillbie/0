@@ -13,11 +13,11 @@ from gtts import gTTS
 from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="EoZl3pwJTS15Kqe88t2b.wvTH9/seZu9vDRNQs/ArwW.ac+MF/xjg+1tkpD3Yjjrc1avEpHiZgmPVEM6eCFQ5SQ=")
+cl.login(token="Eo1dV4p2UyHp6RC9OGc6.zng9BQ+2zWS3naD/WSUwbG.v8oe6mY529J/YWwdpiZIVy5UwuC5P0JEClsRn2/Cpkw=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
-ki.login(token="Eo45jLYHE6nHXz3NT3Ad.qcJOSgzQEpbuah+2LTD5Bq.dFnOMmTxdMFrTG47zWH9ABYIUdPw1RKgtLGNU4PuGUk=")
+ki.login(token="EoHYIJCnrwnj6jWf3YCd./eZTR3Vx9JEH0cLHkK02+q.fuq+kYXZP/oYPtizTh8KKbEhaTNm7uwN6NchIYVS9w0=")
 ki.loginResult()
 
 print "===[Login Success]==="
@@ -142,8 +142,8 @@ By.   »»» http://line.me/ti/p/VxtJPseezK «««
 KAC=[ki] 
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
-Creator="u595b61f7e484cd4f5576b9ea4be6915b"
-admin=["u595b61f7e484cd4f5576b9ea4be6915b","uc8e1e36f976e5f4e15e64d9d1cbe1878","ub34b6b9a9ce7d7fca99460477fd3fcf3","udd917e76596789ae636e53342f37f78c","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u5a8137fd38839d7ae320ad9e005ecda1","ub80075ee3659acb3cfb51dfb3903451b","u4028e8b0666a78f054007ff696d7796d","u787fd768992b484e603ff5441f9eb699","u385a4a012015cc7964778a165514ac9a","u2744c4550c7e293e97adca243805fb4b","ufd259e96c3022e3743b9898a54e0136a","ua5aaf0948ab5631f2013bb50186d5f06","u6fb1bd6b5af0f27bbdb88ecb6a1468c0","u76315ca794eddf984026849e315c7aa6","u4fd06871f6f34b093a3972b8b5de8f3d","ueb83fb1e6439cc1c58332fedd065379c",Amid]
+Creator="u64d1bd6eaff6670b3734077ec2cb9606"
+admin=["u64d1bd6eaff6670b3734077ec2cb9606",Amid]
 
 contact = cl.getProfile()
 backup = cl.getProfile()
