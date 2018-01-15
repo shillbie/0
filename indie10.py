@@ -12,7 +12,59 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 
+cl = LINETCR.LINE() 
+#cl.login(qr=True)
+cl.login(token="Eoxe2HmXr7dT9HGrSqm2.T/UQKwNuh4JaPGysNhcrWG.YS1RD+FxfiqQscnYs3MEbQREauiZZ+8Cs1XE29U8SoE=")
+cl.loginResult()
 
+ki = LINETCR.LINE() 
+#ki.login(qr=True)
+ki.login(token="EoYXuoXN0PTnAaIXlg79.rqjdyY/0X/W1+gIDoHj+kq.yRUsG0Yd18xUC6c1GlsEB6S8+XPUdAkHYkEcW6g+YSc=")
+ki.loginResult()
+
+kk = LINETCR.LINE() 
+#kk.login(qr=True)
+kk.login(token="EoZveooQIcXHZj3cQpP6.NnLqMAw86i/3gMm5Ov36rG.GyIZWDHH57Lx40ev43h9AY/x7PKfiCKagtSaurcGpTc=")
+kk.loginResult()
+
+kc = LINETCR.LINE() 
+#kc.login(qr=True)
+kc.login(token="EoaMVIucMjGhXcln6PK9.nt7dQNsC+CzMwxheApWSQq.P2bQEqYW1iXhCh+V5SdLaZzlWyDhu7Q4Yg3v5MA5g+s=")
+kc.loginResult()
+
+ks = LINETCR.LINE() 
+#ks.login(qr=True)
+ks.login(token="EogCwshIqUzBti420qi3.v8m/Hb3O/Dp8v455S8h2mW.M26bpwb3fCgY2MHBsWebakdxzXSBFCWads12qcyWu0M=")#5
+ks.loginResult()
+
+k1 = LINETCR.LINE()
+k1.login(token="EooSmh4D964ZlUADdjf0.kD1S3cJvgyWhqTlojR830a.qYpnDffV6z9yjSMC16Vteq+n0TSe82JVyUU1jcBRd1s=")
+k1.loginResult()
+
+k2 = LINETCR.LINE() 
+#k2.login(qr=True)
+k2.login(token="EoltPylFQdQUHzET2knb.FDwGj7cW40QqNd+CaY9xwW.QBPB9VjRUsa0AC0j53NUZIoms25OtisgasrhduQjHz4=")#7
+k2.loginResult()
+
+k3 = LINETCR.LINE() 
+#k3.login(qr=True)
+k3.login(token="EoV9FBsi0kzL106UOzW3.9REh/b9d5j8kuVJKZwaniW.h2On4iiBlkixKodIpw4ed51PVCtPOBXCEy/HLXInpJ4=")#8
+k3.loginResult()
+
+k4 = LINETCR.LINE() 
+#k4.login(qr=True)
+k4.login(token="EoYRF2UJG1Kc6Kb847U7.fVjD3nSW3qxCeaTG+pxS1W.sa60IB3J3All8zSEHQBbfnylKUkM9eQGocLzN30dYOQ=")#9
+k4.loginResult()
+
+k5 = LINETCR.LINE() 
+#k5.login(qr=True)
+k5.login(token="EoXEgYF99cg8siGXDXn6.9FgyxXnwgoyffHJH+zvs9G.2cezenmkhoDrVVi+kPL+PV1RwJpQ1jeiJ+VjY2MTatM=")#10
+k5.loginResult()
+
+satpam1 = LINETCR.LINE()  
+satpam1.login(token="EoeNS7lydYakn0nYJVJd.dwNf6g0I5gNJmvnsPnKmRq.Wd7mNudA1qgCRMVk0cBNH2JAf6bod6R0prv/ppkx5X0=")#11
+#satpam1.login(qr=True)
+satpam1.loginResult()
 
 print "login success bos"
 reload(sys)
@@ -249,9 +301,9 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
 induk=[mid]
-Creator=["u5baffcc81a0a0689982216a005cfc70b"]
-admin=["u5baffcc81a0a0689982216a005cfc70b","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b","u15be3f8d6ff7f0e53e4cc8bb30c4fa18","u940947814c50be1fed29c901beed59e1","u01800554d8ba8c353be01aab85de9110",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #RHna,RH,
-owner=["u5baffcc81a0a0689982216a005cfc70b","ub7b31fa9b33f809672a40a98425f59e8","u595b61f7e484cd4f5576b9ea4be6915b"]
+Creator=["u595b61f7e484cd4f5576b9ea4be6915b"]
+admin=["u595b61f7e484cd4f5576b9ea4be6915b",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid1] #RHna,RH,
+owner=["u595b61f7e484cd4f5576b9ea4be6915b"]
 wait = {
     'contact':False,
     'autoJoin':True,
