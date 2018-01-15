@@ -15,7 +15,7 @@ from googletrans import Translator
 
 cl = LINETCR.LINE()
 #cl.login(token="cl = LINETCR.LINE()
-cl.login(token="EoQ1m5qANesa6doJRNy6.DJfCP5tT35HajOsEmvX6PG.PECkNfwCfbkJJST7JbtBgXzUja9bAssTUIGMG/YOejE=")
+cl.login(token="Eog3EYJ5s5RoF2CX5SZ6.DJfCP5tT35HajOsEmvX6PG.Bi20h3huviPtGU09vpTX1eFT1keDX8b9PqEXI3Hb8ms=")
 cl.loginResult()
 
 print "Cl-Login Success\n"
