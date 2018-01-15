@@ -13,12 +13,12 @@ from gtts import gTTS
 from googletrans import Translator
 
 cl = LINETCR.LINE()
-cl.login(token="EogjaSbGYE7I1SgZpMFb.w6+8YbOkbOMyiHAGbC+hcW.Gl7V0XU7D2VhEovraVWOqHhzp0OGGt5rh+zTMv8nFiQ=")
+cl.login(token="EoFZuN9V8VvsR1vm8Btb.w6+8YbOkbOMyiHAGbC+hcW.R8BQmBjEbu+0Lw4WYFQZF/TVUd4tOZS2sIQldzmjM3M=")
 cl.loginResult()
 
 ki = LINETCR.LINE() # Assist
 #ki.login(token="cl = LINETCR.LINE()
-ki.login(token="EoFZKqUqhBdk9F2KO30d.qcJOSgzQEpbuah+2LTD5Bq.WIZV/uTIW61h1avM6TAzeXmF2LXHrnwhRWtthBqA5r0=")
+ki.login(token="EoIuC8JWVlYFpVt7XDRd.qcJOSgzQEpbuah+2LTD5Bq.TuVm5Y4HQu3FJskOOoDSKTh70HrEVYeYZYFmW2wRT2w= ")
 ki.loginResult()
 
 print "===[Login Success]==="
